@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\SammysGreatAdventure.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{AA129180-3D59-43EA-9699-A6A8E7E6B86D}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\SammysGreatAdventure.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\SammysGreatAdventureEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{EA78552E-18D8-4DF2-8A8F-19878C68D873}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\SammysGreatAdventure">
+			<UniqueIdentifier>{17C03EF4-545B-4540-9D82-8A4853B45E1F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\SammysGreatAdventure\SammysGreatAdventure.Build.cs">
+			<Filter>Source\SammysGreatAdventure</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\SammysGreatAdventure\SammysGreatAdventure.cpp">
+			<Filter>Source\SammysGreatAdventure</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SammysGreatAdventure\SammysGreatAdventure.h">
+			<Filter>Source\SammysGreatAdventure</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SammysGreatAdventure\SammysGreatAdventureCharacter.cpp">
+			<Filter>Source\SammysGreatAdventure</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SammysGreatAdventure\SammysGreatAdventureCharacter.h">
+			<Filter>Source\SammysGreatAdventure</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SammysGreatAdventure\SammysGreatAdventureGameMode.cpp">
+			<Filter>Source\SammysGreatAdventure</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SammysGreatAdventure\SammysGreatAdventureGameMode.h">
+			<Filter>Source\SammysGreatAdventure</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
