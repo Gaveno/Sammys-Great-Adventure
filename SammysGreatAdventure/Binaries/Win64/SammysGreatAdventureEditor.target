@@ -17,15 +17,15 @@
 	"BuildProducts" :
 	[
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-SammysGreatAdventure-7782.dll",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-SammysGreatAdventure-9087.dll",
 			"Type" : "DynamicLibrary"
 		},
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-SammysGreatAdventure-7782.pdb",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-SammysGreatAdventure-9087.pdb",
 			"Type" : "SymbolFile"
 		},
 		{
-			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-SammysGreatAdventure-7782.lib",
+			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-SammysGreatAdventure-9087.lib",
 			"Type" : "ImportLibrary"
 		},
 		{

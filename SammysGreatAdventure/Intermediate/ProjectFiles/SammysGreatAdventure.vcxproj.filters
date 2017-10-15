@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\SammysGreatAdventure.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{AA129180-3D59-43EA-9699-A6A8E7E6B86D}</UniqueIdentifier>
+			<UniqueIdentifier>{25288718-C815-45AE-A768-5D41120EB0F5}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\SammysGreatAdventure.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{EA78552E-18D8-4DF2-8A8F-19878C68D873}</UniqueIdentifier>
+			<UniqueIdentifier>{5575CCAB-B871-48AA-A7C3-336E77E8DE8E}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,8 +31,14 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\SammysGreatAdventure">
-			<UniqueIdentifier>{17C03EF4-545B-4540-9D82-8A4853B45E1F}</UniqueIdentifier>
+			<UniqueIdentifier>{4777A97C-3CD9-4ED7-9FCA-B89C6BA4E854}</UniqueIdentifier>
 		</Filter>
+		<ClCompile Include="..\..\Source\SammysGreatAdventure\BadSquare.cpp">
+			<Filter>Source\SammysGreatAdventure</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SammysGreatAdventure\BadSquare.h">
+			<Filter>Source\SammysGreatAdventure</Filter>
+		</ClInclude >
 		<None Include="..\..\Source\SammysGreatAdventure\SammysGreatAdventure.Build.cs">
 			<Filter>Source\SammysGreatAdventure</Filter>
 		</None >

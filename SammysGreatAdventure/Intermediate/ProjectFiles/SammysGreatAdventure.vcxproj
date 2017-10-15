@@ -415,6 +415,8 @@
 		<None Include="..\..\Config\DefaultEngine.ini" />
 		<None Include="..\..\Config\DefaultGame.ini" />
 		<None Include="..\..\Config\DefaultInput.ini" />
+		<ClCompile Include="..\..\Source\SammysGreatAdventure\BadSquare.cpp" />
+		<ClInclude Include="..\..\Source\SammysGreatAdventure\BadSquare.h" />
 		<None Include="..\..\Source\SammysGreatAdventure\SammysGreatAdventure.Build.cs" />
 		<ClCompile Include="..\..\Source\SammysGreatAdventure\SammysGreatAdventure.cpp" />
 		<ClInclude Include="..\..\Source\SammysGreatAdventure\SammysGreatAdventure.h" />
