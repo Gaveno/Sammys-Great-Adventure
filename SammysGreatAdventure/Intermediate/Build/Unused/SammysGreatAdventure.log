@@ -1,14 +1,12 @@
 ﻿  Compiling game modules for hot reload
   Parsing headers for SammysGreatAdventureEditor
     Running UnrealHeaderTool "C:\Users\Gavin\Documents\GitHub\Sammys-Great-Adventure\SammysGreatAdventure\SammysGreatAdventure.uproject" "C:\Users\Gavin\Documents\GitHub\Sammys-Great-Adventure\SammysGreatAdventure\Intermediate\Build\Win64\SammysGreatAdventureEditor\Development\SammysGreatAdventureEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for SammysGreatAdventureEditor in 9.5658258 seconds
-  Performing 5 actions (12 in parallel)
-  SammysGreatAdventure.init.gen.cpp
-  BadSquare.gen.cpp
+  Reflection code generated for SammysGreatAdventureEditor in 9.5765655 seconds
+  Performing 3 actions (12 in parallel)
   BadSquare.cpp
-  [4/5] Link UE4Editor-SammysGreatAdventure-9087.dll
-  [5/5] Link UE4Editor-SammysGreatAdventure-9087.lib
-     Creating library C:\Users\Gavin\Documents\GitHub\Sammys-Great-Adventure\SammysGreatAdventure\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SammysGreatAdventure-9087.lib and object C:\Users\Gavin\Documents\GitHub\Sammys-Great-Adventure\SammysGreatAdventure\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SammysGreatAdventure-9087.exp
-     Creating library C:\Users\Gavin\Documents\GitHub\Sammys-Great-Adventure\SammysGreatAdventure\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SammysGreatAdventure-9087.suppressed.lib and object C:\Users\Gavin\Documents\GitHub\Sammys-Great-Adventure\SammysGreatAdventure\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SammysGreatAdventure-9087.suppressed.exp
+  [2/3] Link UE4Editor-SammysGreatAdventure-3508.dll
+  [3/3] Link UE4Editor-SammysGreatAdventure-3508.lib
+     Creating library C:\Users\Gavin\Documents\GitHub\Sammys-Great-Adventure\SammysGreatAdventure\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SammysGreatAdventure-3508.lib and object C:\Users\Gavin\Documents\GitHub\Sammys-Great-Adventure\SammysGreatAdventure\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SammysGreatAdventure-3508.exp
+     Creating library C:\Users\Gavin\Documents\GitHub\Sammys-Great-Adventure\SammysGreatAdventure\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SammysGreatAdventure-3508.suppressed.lib and object C:\Users\Gavin\Documents\GitHub\Sammys-Great-Adventure\SammysGreatAdventure\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SammysGreatAdventure-3508.suppressed.exp
   Deploying SammysGreatAdventureEditor Win64 Development...
-  Total build time: 21.28 seconds (Local executor: 5.86 seconds)
+  Total build time: 19.45 seconds (Local executor: 3.16 seconds)

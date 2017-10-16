@@ -24,8 +24,12 @@ protected:
 	// Timer for different states
 	int stateTimer;
 
+	// Speed variables for movement input.
+	float maxSpeed;
+	float speed;
+
 	// Turn direction for StateWalkForwardTurning.
-	int direction;
+	float turn;
 
 public:	
 
@@ -37,6 +41,9 @@ public:
 
 	// Walk and turn.
 	void StateWalkForwardTurning();
+
+	// Randomly set the next state.
+	void SetNextState();
 
 
 	// Enemy state
@@ -50,13 +57,7 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "BadSquare")
 	float BaseTurnRate;
 
-	/**
-	* Turn the Bad Square in a direction.
-	* @param Rate	This is a normalized rate, i.e. 1.0 means 100% of desired turn rate
-	*/
-	void TurnAtRate(float Rate);
-
 	/** Move the Bad Square forward or backward. */
-	void MoveForward(float Value);
+	void MoveForward(float Value, float Turn);
 	
 };

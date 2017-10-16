@@ -3140,3 +3140,322 @@ please set the "Use T0 as ref pose" option or add them to the bind pose and reim
 [2017.10.15-01.09.07:883][353]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.Actor_16.DebugSkelMeshComponent_28) Already registered. Aborting.
 [2017.10.15-01.09.08:190][353]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_43:PersistentLevel.Actor_16.DebugSkelMeshComponent_28) - call TermArticulated first.
 [2017.10.15-01.09.08:666][353]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.16-00.16.47:542][543]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_46:PersistentLevel.Actor_17.DebugSkelMeshComponent_30) Already registered. Aborting.
+[2017.10.16-00.16.53:693][543]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_46:PersistentLevel.Actor_17.DebugSkelMeshComponent_30) - call TermArticulated first.
+[2017.10.16-00.16.54:098][543]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.16-00.18.26:842][140]LogSlate: Took 0.024358 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.10.16-00.18.46:942][634]LogSavePackage: Save=37.95ms
+[2017.10.16-00.18.46:942][634]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/BadSquare_AnimBP28108D9D4AC7A802A276F880EFB28A11.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/Animations/BadSquare_AnimBP.uasset'
+[2017.10.16-00.18.46:949][634]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/Animations/BadSquare_AnimBP.uasset
+[2017.10.16-00.18.47:444][670]BlueprintLog: New page: Compile BadSquare_AnimBP
+[2017.10.16-00.19.44:537][857]BlueprintLog: New page: Compile BadSquare_AnimBP
+[2017.10.16-00.19.45:376][903]LogSavePackage: Save=37.88ms
+[2017.10.16-00.19.45:376][903]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/BadSquare_AnimBPC6F9B2E44E08A92649910395FF99EC96.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/Animations/BadSquare_AnimBP.uasset'
+[2017.10.16-00.19.45:382][903]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/Animations/BadSquare_AnimBP.uasset
+[2017.10.16-00.20.20:635][294]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_50:PersistentLevel.Actor_18.DebugSkelMeshComponent_32) Already registered. Aborting.
+[2017.10.16-00.20.21:047][294]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_50:PersistentLevel.Actor_18.DebugSkelMeshComponent_32) - call TermArticulated first.
+[2017.10.16-00.20.21:548][294]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.10.16-00.21.57:430][203]LogSavePackage: Save=49.15ms
+[2017.10.16-00.21.57:430][203]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/BadSquare_AnimBP5E2BAA4544D685973F4D489B60C7AA16.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/Animations/BadSquare_AnimBP.uasset'
+[2017.10.16-00.21.57:434][203]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/Animations/BadSquare_AnimBP.uasset
+[2017.10.16-00.21.57:891][231]BlueprintLog: New page: Compile BadSquare_AnimBP
+[2017.10.16-00.21.58:957][282]LogSavePackage: Save=60.56ms
+[2017.10.16-00.21.58:957][282]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/BadSquare_AnimBP7D9FF0ED41D3EA5E3B96C9A5390A636F.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/Animations/BadSquare_AnimBP.uasset'
+[2017.10.16-00.21.58:960][282]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/Animations/BadSquare_AnimBP.uasset
+[2017.10.16-00.31.51:595][278]LogHotReload: New module detected: UE4Editor-SammysGreatAdventure-3010.dll
+[2017.10.16-00.31.52:618][282]LogHotReload: Starting Hot-Reload from IDE
+[2017.10.16-00.31.56:158][282]LogClass: Could not find existing class BadSquare in package /Script/SammysGreatAdventure for HotReload, assuming new class
+[2017.10.16-00.31.56:169][282]LogHotReload: Re-instancing BadSquare after hot-reload.
+[2017.10.16-00.31.56:476][282]LogContentBrowser: Native class hierarchy updated for 'SammysGreatAdventure' in 0.0029 seconds. Added 3 classes and 2 folders.
+[2017.10.16-00.31.56:479][282]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.10.16-00.31.56:865][282]LogContentBrowser: Native class hierarchy populated in 0.0181 seconds. Added 2392 classes and 508 folders.
+[2017.10.16-00.31.56:870][282]Display: HotReload took  4.3s.
+[2017.10.16-00.32.46:901][647]BlueprintLog: New page: Compile BP_BadSquare
+[2017.10.16-00.32.48:422][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_BadSquare" FILE="C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/BP_BadSquare.uasset" SILENT=true
+[2017.10.16-00.32.48:487][683]LogSavePackage: Save=42.87ms
+[2017.10.16-00.32.48:487][683]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/BP_BadSquare8655FDFF494E59EE6D6C319EDA522D0C.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/BP_BadSquare.uasset'
+[2017.10.16-00.32.48:495][683]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/BP_BadSquare.uasset
+[2017.10.16-00.32.53:940][113]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.16-00.32.54:170][113]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-00.32.54:178][113]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.16-00.32.54:184][113]LogHMD: Initializing OVRPlugin session
+[2017.10.16-00.33.04:821][113]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 15, 2017, 12:33:04 PM)
+[2017.10.16-00.33.04:844][113]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.10.16-00.33.04:968][113]LogPlayLevel: PIE: StaticDuplicateObject took: (0.124100s)
+[2017.10.16-00.33.04:968][113]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.16-00.33.04:969][113]LogPlayLevel: PIE: World Init took: (0.001111s)
+[2017.10.16-00.33.04:969][113]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.125657s)
+[2017.10.16-00.33.05:134][113]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.16-00.33.05:147][113]LogInit: FAudioDevice initialized.
+[2017.10.16-00.33.05:207][113]LogLoad: Game class is 'SammysGreatAdventureGameMode'
+[2017.10.16-00.33.05:218][113]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.10.15-18.33.05
+[2017.10.16-00.33.05:359][113]LogWorld: Bringing up level for play took: 0.142817
+[2017.10.16-00.33.05:512][113]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0022 seconds. Added 11 classes and 0 folders.
+[2017.10.16-00.33.05:545][113]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 11.565
+[2017.10.16-00.33.05:545][113]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-00.33.08:043][376]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-00.33.13:047][941]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-00.33.19:144][605]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-00.33.32:225][162]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-00.33.32:388][162]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-00.34.09:415][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_BadSquare" FILE="C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/BP_BadSquare.uasset" SILENT=true
+[2017.10.16-00.34.09:447][653]LogSavePackage: Save=25.45ms
+[2017.10.16-00.34.09:447][653]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/BP_BadSquareE14D05BA46E8D369658285BCE29A1174.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/BP_BadSquare.uasset'
+[2017.10.16-00.34.09:451][653]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/BP_BadSquare.uasset
+[2017.10.16-00.34.54:923][322]BlueprintLog: New page: Compile BP_BadSquare
+[2017.10.16-00.34.56:391][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_BadSquare" FILE="C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/BP_BadSquare.uasset" SILENT=true
+[2017.10.16-00.34.56:437][380]LogSavePackage: Save=38.42ms
+[2017.10.16-00.34.56:437][380]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/BP_BadSquareA85D64B34FC481463A506583959533E4.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/BP_BadSquare.uasset'
+[2017.10.16-00.34.56:442][380]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/BP_BadSquare.uasset
+[2017.10.16-00.35.08:664][143]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.16-00.35.12:703][361]BlueprintLog: New page: Compile BP_BadSquare
+[2017.10.16-00.35.13:733][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_BadSquare" FILE="C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/BP_BadSquare.uasset" SILENT=true
+[2017.10.16-00.35.13:780][387]LogSavePackage: Save=38.97ms
+[2017.10.16-00.35.13:780][387]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/BP_BadSquare592D693A42CFB3091B9ABB95CB30025D.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/BP_BadSquare.uasset'
+[2017.10.16-00.35.13:784][387]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/BP_BadSquare.uasset
+[2017.10.16-00.35.16:200][555]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.16-00.35.16:226][555]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-00.35.16:226][555]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.16-00.35.16:226][555]LogHMD: Initializing OVRPlugin session
+[2017.10.16-00.35.16:246][555]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 15, 2017, 12:35:16 PM)
+[2017.10.16-00.35.16:246][555]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.10.16-00.35.16:274][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027833s)
+[2017.10.16-00.35.16:276][555]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.16-00.35.16:276][555]LogPlayLevel: PIE: World Init took: (0.001936s)
+[2017.10.16-00.35.16:277][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.030452s)
+[2017.10.16-00.35.16:340][555]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.16-00.35.16:355][555]LogInit: FAudioDevice initialized.
+[2017.10.16-00.35.16:398][555]LogLoad: Game class is 'SammysGreatAdventureGameMode'
+[2017.10.16-00.35.16:401][555]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.10.15-18.35.16
+[2017.10.16-00.35.16:401][555]LogWorld: Bringing up level for play took: 0.002086
+[2017.10.16-00.35.16:403][555]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.424
+[2017.10.16-00.35.16:404][555]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-00.35.26:312][733]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-00.35.37:815][112]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-00.35.56:769][384]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-00.35.56:867][384]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-00.36.27:175][637]LogSavePackage: Save=88.89ms
+[2017.10.16-00.36.27:175][637]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_Auto4AEC585BF48C2BA8816EFEEA865A49297.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto4.umap'
+[2017.10.16-00.36.27:178][637]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto4.umap
+[2017.10.16-00.36.27:191][637]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.222
+[2017.10.16-00.36.27:191][637]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.222
+[2017.10.16-01.18.00:494][117]LogHotReload: New module detected: UE4Editor-SammysGreatAdventure-8906.dll
+[2017.10.16-01.18.01:193][120]LogHotReload: Starting Hot-Reload from IDE
+[2017.10.16-01.18.01:317][120]LogContentBrowser: Native class hierarchy updated for 'SammysGreatAdventure' in 0.0022 seconds. Added 3 classes and 2 folders.
+[2017.10.16-01.18.01:319][120]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.10.16-01.18.01:646][120]LogContentBrowser: Native class hierarchy populated in 0.0143 seconds. Added 2392 classes and 508 folders.
+[2017.10.16-01.18.01:650][120]Display: HotReload took  0.5s.
+[2017.10.16-01.18.09:247][531]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.16-01.18.09:268][531]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.18.09:268][531]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.16-01.18.09:268][531]LogHMD: Initializing OVRPlugin session
+[2017.10.16-01.18.09:299][531]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 15, 2017, 1:18:09 PM)
+[2017.10.16-01.18.09:299][531]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.10.16-01.18.09:322][531]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023798s)
+[2017.10.16-01.18.09:323][531]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.16-01.18.09:324][531]LogPlayLevel: PIE: World Init took: (0.001007s)
+[2017.10.16-01.18.09:324][531]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.025230s)
+[2017.10.16-01.18.09:429][531]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.16-01.18.09:443][531]LogInit: FAudioDevice initialized.
+[2017.10.16-01.18.09:476][531]LogLoad: Game class is 'SammysGreatAdventureGameMode'
+[2017.10.16-01.18.09:478][531]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.10.15-19.18.09
+[2017.10.16-01.18.09:478][531]LogWorld: Bringing up level for play took: 0.002047
+[2017.10.16-01.18.09:480][531]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.499
+[2017.10.16-01.18.09:481][531]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.18.13:245][960]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-01.18.23:241][156]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-01.18.26:019][489]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.18.26:119][489]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.22.53:210][452]LogHotReload: New module detected: UE4Editor-SammysGreatAdventure-8439.dll
+[2017.10.16-01.22.53:908][455]LogHotReload: Starting Hot-Reload from IDE
+[2017.10.16-01.22.57:428][455]LogContentBrowser: Native class hierarchy updated for 'SammysGreatAdventure' in 0.0022 seconds. Added 3 classes and 2 folders.
+[2017.10.16-01.22.57:431][455]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.10.16-01.22.57:750][455]LogContentBrowser: Native class hierarchy populated in 0.0142 seconds. Added 2392 classes and 508 folders.
+[2017.10.16-01.22.57:756][455]Display: HotReload took  3.8s.
+[2017.10.16-01.22.59:666][614]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.16-01.22.59:687][614]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.22.59:687][614]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.16-01.22.59:687][614]LogHMD: Initializing OVRPlugin session
+[2017.10.16-01.22.59:711][614]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 15, 2017, 1:22:59 PM)
+[2017.10.16-01.22.59:711][614]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.10.16-01.22.59:759][614]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047511s)
+[2017.10.16-01.22.59:760][614]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.16-01.22.59:760][614]LogPlayLevel: PIE: World Init took: (0.001026s)
+[2017.10.16-01.22.59:761][614]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.049103s)
+[2017.10.16-01.22.59:861][614]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.16-01.22.59:873][614]LogInit: FAudioDevice initialized.
+[2017.10.16-01.22.59:930][614]LogLoad: Game class is 'SammysGreatAdventureGameMode'
+[2017.10.16-01.22.59:933][614]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.10.15-19.22.59
+[2017.10.16-01.22.59:933][614]LogWorld: Bringing up level for play took: 0.002471
+[2017.10.16-01.22.59:936][614]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.044
+[2017.10.16-01.22.59:936][614]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.23.10:041][802]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-01.23.13:647][234]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-01.23.20:003][996]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-01.23.24:951][589]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-01.23.29:982][192]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-01.23.32:259][465]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-01.23.39:995][390]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-01.23.43:719][829]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-01.23.45:287][ 17]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-01.23.49:375][507]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-01.23.50:901][690]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-01.23.54:331][101]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-01.23.55:308][218]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-01.23.56:176][322]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-01.24.00:400][820]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.24.00:501][820]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.31.43:903][577]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.16-01.31.43:925][577]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.31.43:925][577]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.16-01.31.43:925][577]LogHMD: Initializing OVRPlugin session
+[2017.10.16-01.31.43:945][577]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 15, 2017, 1:31:43 PM)
+[2017.10.16-01.31.43:945][577]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.10.16-01.31.43:967][577]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021217s)
+[2017.10.16-01.31.43:967][577]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.16-01.31.43:968][577]LogPlayLevel: PIE: World Init took: (0.001061s)
+[2017.10.16-01.31.43:968][577]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022669s)
+[2017.10.16-01.31.44:023][577]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.16-01.31.44:037][577]LogInit: FAudioDevice initialized.
+[2017.10.16-01.31.44:074][577]LogLoad: Game class is 'SammysGreatAdventureGameMode'
+[2017.10.16-01.31.44:076][577]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.10.15-19.31.44
+[2017.10.16-01.31.44:077][577]LogWorld: Bringing up level for play took: 0.002542
+[2017.10.16-01.31.44:079][577]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.099
+[2017.10.16-01.31.44:079][577]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.32.03:874][941]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.32.03:973][941]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.33.23:064][287]LogHotReload: New module detected: UE4Editor-SammysGreatAdventure-4314.dll
+[2017.10.16-01.33.23:762][290]LogHotReload: Starting Hot-Reload from IDE
+[2017.10.16-01.33.23:884][290]LogContentBrowser: Native class hierarchy updated for 'SammysGreatAdventure' in 0.0022 seconds. Added 3 classes and 2 folders.
+[2017.10.16-01.33.23:887][290]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.10.16-01.33.24:214][290]LogContentBrowser: Native class hierarchy populated in 0.0141 seconds. Added 2392 classes and 508 folders.
+[2017.10.16-01.33.24:218][290]Display: HotReload took  0.5s.
+[2017.10.16-01.33.27:412][394]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.16-01.33.27:432][394]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.33.27:432][394]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.16-01.33.27:432][394]LogHMD: Initializing OVRPlugin session
+[2017.10.16-01.33.27:453][394]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 15, 2017, 1:33:27 PM)
+[2017.10.16-01.33.27:453][394]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.10.16-01.33.27:471][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018179s)
+[2017.10.16-01.33.27:472][394]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.16-01.33.27:473][394]LogPlayLevel: PIE: World Init took: (0.001299s)
+[2017.10.16-01.33.27:473][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019980s)
+[2017.10.16-01.33.27:572][394]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.16-01.33.27:585][394]LogInit: FAudioDevice initialized.
+[2017.10.16-01.33.27:641][394]LogLoad: Game class is 'SammysGreatAdventureGameMode'
+[2017.10.16-01.33.27:643][394]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.10.15-19.33.27
+[2017.10.16-01.33.27:644][394]LogWorld: Bringing up level for play took: 0.002088
+[2017.10.16-01.33.27:646][394]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.334
+[2017.10.16-01.33.27:647][394]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.33.35:454][304]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-01.33.42:903][197]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-01.34.08:794][301]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.34.08:894][301]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.36.44:458][854]LogHotReload: New module detected: UE4Editor-SammysGreatAdventure-4785.dll
+[2017.10.16-01.36.45:490][858]LogHotReload: Starting Hot-Reload from IDE
+[2017.10.16-01.36.45:614][858]LogContentBrowser: Native class hierarchy updated for 'SammysGreatAdventure' in 0.0023 seconds. Added 3 classes and 2 folders.
+[2017.10.16-01.36.45:616][858]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.10.16-01.36.45:930][858]LogContentBrowser: Native class hierarchy populated in 0.0142 seconds. Added 2392 classes and 508 folders.
+[2017.10.16-01.36.45:935][858]Display: HotReload took  0.4s.
+[2017.10.16-01.36.48:846][963]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.16-01.36.48:867][963]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.36.48:867][963]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.16-01.36.48:867][963]LogHMD: Initializing OVRPlugin session
+[2017.10.16-01.36.48:887][963]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 15, 2017, 1:36:48 PM)
+[2017.10.16-01.36.48:888][963]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.10.16-01.36.48:909][963]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021397s)
+[2017.10.16-01.36.48:910][963]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.16-01.36.48:911][963]LogPlayLevel: PIE: World Init took: (0.001880s)
+[2017.10.16-01.36.48:911][963]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023972s)
+[2017.10.16-01.36.49:055][963]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.16-01.36.49:068][963]LogInit: FAudioDevice initialized.
+[2017.10.16-01.36.49:122][963]LogLoad: Game class is 'SammysGreatAdventureGameMode'
+[2017.10.16-01.36.49:125][963]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.10.15-19.36.49
+[2017.10.16-01.36.49:125][963]LogWorld: Bringing up level for play took: 0.002151
+[2017.10.16-01.36.49:128][963]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.148
+[2017.10.16-01.36.49:128][963]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.37.00:948][357]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-01.37.01:817][461]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-01.37.13:554][863]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-01.37.20:825][735]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-01.37.30:121][850]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-01.37.36:519][617]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-01.37.40:581][104]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.37.40:686][104]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.38.15:394][308]LogHotReload: New module detected: UE4Editor-SammysGreatAdventure-4978.dll
+[2017.10.16-01.38.16:093][311]LogHotReload: Starting Hot-Reload from IDE
+[2017.10.16-01.38.16:220][311]LogContentBrowser: Native class hierarchy updated for 'SammysGreatAdventure' in 0.0022 seconds. Added 3 classes and 2 folders.
+[2017.10.16-01.38.16:222][311]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.10.16-01.38.16:546][311]LogContentBrowser: Native class hierarchy populated in 0.0142 seconds. Added 2392 classes and 508 folders.
+[2017.10.16-01.38.16:550][311]Display: HotReload took  0.5s.
+[2017.10.16-01.38.21:892][520]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.16-01.38.21:913][520]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.38.21:913][520]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.16-01.38.21:913][520]LogHMD: Initializing OVRPlugin session
+[2017.10.16-01.38.21:933][520]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 15, 2017, 1:38:21 PM)
+[2017.10.16-01.38.21:933][520]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.10.16-01.38.21:952][520]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019047s)
+[2017.10.16-01.38.21:953][520]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.16-01.38.21:953][520]LogPlayLevel: PIE: World Init took: (0.001130s)
+[2017.10.16-01.38.21:954][520]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020614s)
+[2017.10.16-01.38.22:054][520]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.16-01.38.22:067][520]LogInit: FAudioDevice initialized.
+[2017.10.16-01.38.22:098][520]LogLoad: Game class is 'SammysGreatAdventureGameMode'
+[2017.10.16-01.38.22:100][520]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.10.15-19.38.22
+[2017.10.16-01.38.22:100][520]LogWorld: Bringing up level for play took: 0.001949
+[2017.10.16-01.38.22:102][520]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.123
+[2017.10.16-01.38.22:103][520]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.38.58:428][853]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-01.39.21:103][572]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.39.21:201][572]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.40.50:266][998]LogHotReload: New module detected: UE4Editor-SammysGreatAdventure-3508.dll
+[2017.10.16-01.40.50:964][  1]LogHotReload: Starting Hot-Reload from IDE
+[2017.10.16-01.40.51:103][  1]LogContentBrowser: Native class hierarchy updated for 'SammysGreatAdventure' in 0.0025 seconds. Added 3 classes and 2 folders.
+[2017.10.16-01.40.51:106][  1]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.10.16-01.40.51:439][  1]LogContentBrowser: Native class hierarchy populated in 0.0146 seconds. Added 2392 classes and 508 folders.
+[2017.10.16-01.40.51:443][  1]Display: HotReload took  0.5s.
+[2017.10.16-01.40.56:167][128]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.16-01.40.56:188][128]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.40.56:188][128]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.16-01.40.56:188][128]LogHMD: Initializing OVRPlugin session
+[2017.10.16-01.40.56:210][128]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 15, 2017, 1:40:56 PM)
+[2017.10.16-01.40.56:210][128]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.10.16-01.40.56:229][128]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018903s)
+[2017.10.16-01.40.56:229][128]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.16-01.40.56:230][128]LogPlayLevel: PIE: World Init took: (0.000935s)
+[2017.10.16-01.40.56:230][128]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020252s)
+[2017.10.16-01.40.56:322][128]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.16-01.40.56:335][128]LogInit: FAudioDevice initialized.
+[2017.10.16-01.40.56:368][128]LogLoad: Game class is 'SammysGreatAdventureGameMode'
+[2017.10.16-01.40.56:371][128]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.10.15-19.40.56
+[2017.10.16-01.40.56:371][128]LogWorld: Bringing up level for play took: 0.002077
+[2017.10.16-01.40.56:373][128]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.393
+[2017.10.16-01.40.56:374][128]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.41.16:921][569]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-01.42.01:534][910]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.42.01:630][910]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.42.12:523][747]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.16-01.42.12:546][747]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.42.12:546][747]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.16-01.42.12:546][747]LogHMD: Initializing OVRPlugin session
+[2017.10.16-01.42.12:566][747]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 15, 2017, 1:42:12 PM)
+[2017.10.16-01.42.12:566][747]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.10.16-01.42.12:592][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025763s)
+[2017.10.16-01.42.12:593][747]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.10.16-01.42.12:593][747]LogPlayLevel: PIE: World Init took: (0.001629s)
+[2017.10.16-01.42.12:594][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.027887s)
+[2017.10.16-01.42.12:654][747]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.16-01.42.12:668][747]LogInit: FAudioDevice initialized.
+[2017.10.16-01.42.12:703][747]LogLoad: Game class is 'SammysGreatAdventureGameMode'
+[2017.10.16-01.42.12:706][747]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.10.15-19.42.12
+[2017.10.16-01.42.12:707][747]LogWorld: Bringing up level for play took: 0.003022
+[2017.10.16-01.42.12:709][747]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.729
+[2017.10.16-01.42.12:709][747]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.42.20:221][639]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-01.42.26:582][400]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.10.16-01.43.12:942][951]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.43.13:037][951]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.10.16-01.43.20:475][ 49]LogSavePackage: Save=90.79ms
+[2017.10.16-01.43.20:475][ 49]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap30BAC48849B3FFE3BA8F8B827B67C805.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2017.10.16-01.43.20:484][ 49]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2017.10.16-01.43.20:557][ 49]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 4.561
