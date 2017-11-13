@@ -20,8 +20,8 @@ void EmptyLinkFunctionForGeneratedCodeSammysGreatAdventure_init() {}
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), nullptr, FName(TEXT("/Script/SammysGreatAdventure")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0xCB6DA717;
-			Guid.B = 0xEA49D0C0;
+			Guid.A = 0x00DF4FA6;
+			Guid.B = 0x51CDDD04;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);
