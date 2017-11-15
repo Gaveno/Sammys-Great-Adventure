@@ -68,3 +68,6 @@ DerivedDataCache/*
 # Log files
 Saved/Logs/*
 *.log
+*.bin
+*.bin
+*.log
