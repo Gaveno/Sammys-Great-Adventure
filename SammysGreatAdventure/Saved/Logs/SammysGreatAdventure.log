@@ -1,13 +1,13 @@
-﻿Log file open, 11/12/17 14:13:04
+﻿Log file open, 11/15/17 12:12:51
 LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
 LogInit: Display: Running engine for game: SammysGreatAdventure
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-397059497) SRandInit(-397059456).
-LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.314863
+LogInit: Display: RandInit(1484749996) SRandInit(1484749996).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.135257
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -79,7 +79,6 @@ LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
 LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-LogHMD: Failed initializing OVRPlugin 1.15.0
 LogInit: Build: ++UE4+Release-4.17-CL-3586342
 LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
 LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
@@ -105,996 +104,206 @@ LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
-LogInit: Command line:  
-LogInit: Base directory: F:/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.11.12-21.13.06:512][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.12-21.13.06:512][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.11.12-21.13.06:527][  0]LogInit: Computer: DESKTOP-6EULIMJ
-[2017.11.12-21.13.06:527][  0]LogInit: User: Gavin
-[2017.11.12-21.13.06:527][  0]LogInit: CPU Page size=4096, Cores=8
-[2017.11.12-21.13.06:527][  0]LogInit: High frequency timer resolution =14.318180 MHz
-[2017.11.12-21.13.06:527][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.11.12-21.13.06:527][  0]LogMemory: Platform Memory Stats for Windows
-[2017.11.12-21.13.06:527][  0]LogMemory: Process Physical Memory: 284.05 MB used, 284.05 MB peak
-[2017.11.12-21.13.06:527][  0]LogMemory: Process Virtual Memory: 284.68 MB used, 284.68 MB peak
-[2017.11.12-21.13.06:527][  0]LogMemory: Physical Memory: 6675.26 MB used,  9639.94 MB free, 16315.20 MB total
-[2017.11.12-21.13.06:527][  0]LogMemory: Virtual Memory: 718.99 MB used,  9639.94 MB free, 134217728.00 MB total
-[2017.11.12-21.13.06:658][  0]LogInit: Using OS detected language (en-US).
-[2017.11.12-21.13.06:658][  0]LogInit: Using OS detected locale (en-US).
-[2017.11.12-21.13.06:661][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.11.12-21.13.07:421][  0]LogD3D11RHI: D3D11 adapters:
-[2017.11.12-21.13.07:447][  0]LogD3D11RHI:    0. 'Radeon (TM) RX 480 Graphics' (Feature Level 11_0)
-[2017.11.12-21.13.07:447][  0]LogD3D11RHI:       8137/0/8157 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2017.11.12-21.13.07:449][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.11.12-21.13.07:449][  0]LogD3D11RHI:       0/0/8157 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.11.12-21.13.07:449][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.11.12-21.13.07:465][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.11.12-21.13.07:465][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
-[2017.11.12-21.13.07:465][  0]LogWindows: EnumDisplayDevices:
-[2017.11.12-21.13.07:465][  0]LogWindows:    0. 'Radeon (TM) RX 480 Graphics' (P:1 D:1)
-[2017.11.12-21.13.07:466][  0]LogWindows:    1. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2017.11.12-21.13.07:466][  0]LogWindows:    2. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2017.11.12-21.13.07:466][  0]LogWindows:    3. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2017.11.12-21.13.07:466][  0]LogWindows:    4. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2017.11.12-21.13.07:467][  0]LogWindows:    5. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2017.11.12-21.13.07:467][  0]LogWindows:    6. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2017.11.12-21.13.07:467][  0]LogWindows:    7. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2017.11.12-21.13.07:467][  0]LogWindows:    8. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2017.11.12-21.13.07:467][  0]LogWindows:    9. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2017.11.12-21.13.07:468][  0]LogWindows:    10. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2017.11.12-21.13.07:468][  0]LogWindows:    11. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2017.11.12-21.13.07:468][  0]LogWindows:    12. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2017.11.12-21.13.07:468][  0]LogWindows:    13. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2017.11.12-21.13.07:468][  0]LogWindows:    14. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2017.11.12-21.13.07:469][  0]LogWindows:    15. 'Radeon (TM) RX 480 Graphics' (P:0 D:0)
-[2017.11.12-21.13.07:469][  0]LogWindows: DebugString: FoundDriverCount:16 
-[2017.11.12-21.13.07:469][  0]LogD3D11RHI:     Adapter Name: Radeon (TM) RX 480 Graphics
-[2017.11.12-21.13.07:469][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.11.1 (internal:23.20.788.0, unified:23.20.788.0)
-[2017.11.12-21.13.07:469][  0]LogD3D11RHI:      Driver Date: 11-2-2017
-[2017.11.12-21.13.07:469][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.11.12-21.13.07:543][  0]LogD3D11RHI: Async texture creation enabled
-[2017.11.12-21.13.07:554][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
-[2017.11.12-21.13.07:555][  0]LogD3D11RHI: HDR output is supported on display 0 (AMD Device: 0x0, Display: 0x0).
-[2017.11.12-21.13.07:555][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Intermediate/Shaders/WorkingDirectory/38600/).
-[2017.11.12-21.13.07:555][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Gavin/AppData/Local/Temp/UnrealShaderWorkingDir/00ADFFA94A25CFAAC59B13AB87A68838/'.
-[2017.11.12-21.13.07:555][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.11.12-21.13.08:584][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.11.12-21.13.08:634][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.11.12-21.13.08:684][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.11.12-21.13.08:736][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.11.12-21.13.08:788][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.11.12-21.13.08:844][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.11.12-21.13.08:893][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.11.12-21.13.08:943][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.11.12-21.13.08:985][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.11.12-21.13.09:034][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.11.12-21.13.09:082][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.11.12-21.13.09:131][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.11.12-21.13.09:179][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.11.12-21.13.09:229][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.11.12-21.13.09:276][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.11.12-21.13.09:372][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.11.12-21.13.09:372][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.11.12-21.13.09:405][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.11.12-21.13.09:493][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.11.12-21.13.09:523][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.11.12-21.13.09:571][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.11.12-21.13.09:620][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.11.12-21.13.09:669][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.11.12-21.13.09:717][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.11.12-21.13.09:717][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.11.12-21.13.10:172][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.11.12-21.13.10:277][  0]LogDerivedDataCache: Loaded boot cache 0.10s 95MB C:/Users/Gavin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.11.12-21.13.10:277][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Gavin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.11.12-21.13.10:277][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.11.12-21.13.10:277][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.11.12-21.13.10:277][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.11.12-21.13.10:277][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.11.12-21.13.10:297][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.11.12-21.13.10:309][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Gavin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.11.12-21.13.10:320][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.11.12-21.13.10:320][  0]LogSlate: Using Freetype 2.6.0
-[2017.11.12-21.13.10:321][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.12-21.13.10:321][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.12-21.13.10:615][  0]LogAssetRegistry: FAssetRegistry took 0.0285 seconds to start up
-[2017.11.12-21.13.10:751][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.12-21.13.11:177][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.11.12-21.13.11:213][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.11.12-21.13.11:213][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.11.12-21.13.11:213][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.11.12-21.13.11:213][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.11.12-21.13.11:213][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.11.12-21.13.11:239][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.11.12-21.13.11:721][  0]LogNetVersion: SammysGreatAdventure , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3915310096)
-[2017.11.12-21.13.11:956][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.056357 seconds
-[2017.11.12-21.13.11:963][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.11.12-21.13.11:963][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
-[2017.11.12-21.13.11:963][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.11.12-21.13.12:016][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.11.12-21.13.14:449][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.11.12-21.13.14:488][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.11.12-21.13.15:244][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.11.12-21.13.15:618][  0]SourceControl: Source control is disabled
-[2017.11.12-21.13.15:618][  0]SourceControl: Source control is disabled
-[2017.11.12-21.13.15:664][  0]SourceControl: Source control is disabled
-[2017.11.12-21.13.15:707][  0]SourceControl: Source control is disabled
-[2017.11.12-21.13.16:235][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.11.12-21.13.16:461][  0]LogOcInput: OculusInput pre-init called
-[2017.11.12-21.13.16:704][  0]LogEngine: Initializing Engine...
-[2017.11.12-21.13.16:736][  0]LogHMD: Failed to initialize OpenVR with code 126
-[2017.11.12-21.13.16:984][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.11.12-21.13.16:984][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.11.12-21.13.17:093][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.11.12-21.13.17:112][  0]LogInit: XAudio2 using '4 - LG TV RVU (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.12-21.13.17:134][  0]LogInit: FAudioDevice initialized.
-[2017.11.12-21.13.17:226][  0]LogDerivedDataCache: Saved boot cache 0.09s 95MB C:/Users/Gavin/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.11.12-21.13.17:244][  0]LogInit: Texture streaming: Enabled
-[2017.11.12-21.13.17:345][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.11.12-21.13.17:542][  0]LogInit: Transaction tracking system initialized
-[2017.11.12-21.13.17:806][  0]BlueprintLog: New page: Editor Load
-[2017.11.12-21.13.18:619][  0]LocalizationService: Localization service is disabled
-[2017.11.12-21.13.19:256][  0]LogConsoleResponse: Display: 
-[2017.11.12-21.13.19:454][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.11.12-21.13.19:454][  0]LogCook: Display: Mobile HDR setting 1
-[2017.11.12-21.13.19:454][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.11.12-21.13.19:700][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/' took 0.01s
-[2017.11.12-21.13.20:388][  0]SourceControl: Source control is disabled
-[2017.11.12-21.13.20:388][  0]Cmd: MAP LOAD FILE="C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.12-21.13.20:388][  0]LightingResults: New page: Lighting Build
-[2017.11.12-21.13.20:423][  0]MapCheck: New page: Map Check
-[2017.11.12-21.13.20:423][  0]LightingResults: New page: Lighting Build
-[2017.11.12-21.13.21:088][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2017.11.12-21.13.21:089][  0]LogModelComponent: Warning: Material Ice requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
-[2017.11.12-21.13.21:089][  0]LogModelComponent: Warning: Material Ice requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
-[2017.11.12-21.13.21:089][  0]LogModelComponent: Warning: Material Ice requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
-[2017.11.12-21.13.21:161][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.12-21.13.21:235][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.12-21.13.21:289][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.015ms to complete.
-[2017.11.12-21.13.21:289][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.902
-[2017.11.12-21.13.21:368][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.11.12-21.13.21:368][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.11.12-21.13.21:465][  0]LogCollectionManager: Loaded 0 collections in 0.002609 seconds
-[2017.11.12-21.13.21:543][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Collections/' took 0.01s
-[2017.11.12-21.13.21:543][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Developers/Gavin/Collections/' took 0.01s
-[2017.11.12-21.13.21:543][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Collections/' took 0.01s
-[2017.11.12-21.13.21:543][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.11.12-21.13.21:556][  0]LogContentBrowser: Native class hierarchy populated in 0.0126 seconds. Added 2391 classes and 502 folders.
-[2017.11.12-21.13.21:614][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0017 seconds. Added 0 classes and 0 folders.
-[2017.11.12-21.13.21:653][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0018 seconds. Added 0 classes and 0 folders.
-[2017.11.12-21.13.21:692][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
-[2017.11.12-21.13.21:807][  0]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.12-21.13.21:809][  0]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.11.12-21.13.21:815][  0]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.11.12-21.13.21:920][  0]LogRenderer: Reallocating scene render targets to support 1728x968 Format 10 NumSamples 1 (Frame:1).
-[2017.11.12-21.13.21:943][  0]LogStaticMesh: Allocated 510x139x64 distance field atlas = 8.7Mb, with 56 objects containing 3.8Mb backing data
-[2017.11.12-21.13.22:194][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
-[2017.11.12-21.13.22:195][  0]LogLoad: (Engine Initialization) Total time: 18.94 seconds
-[2017.11.12-21.13.22:195][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.11.12-21.13.22:195][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.11.12-21.13.22:251][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.11.12-21.13.22:328][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/' took 0.11s
-[2017.11.12-21.13.22:347][  1]LogAssetRegistry: Asset discovery search completed in 11.7544 seconds
-[2017.11.12-21.13.22:349][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
-[2017.11.12-21.13.22:349][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000058 seconds (updated 0 objects)
-[2017.11.12-21.13.53:972][864]LogLinker: Warning: Can't find file '/Script/Homework6'
-[2017.11.12-21.13.53:973][864]LogLinker: Warning: Can't find file for asset '/Script/Homework6' while loading C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Animation/ABP_FrostyGhost.uasset.
-[2017.11.12-21.13.53:973][864]LoadErrors: Error: /Game/FrostyGhost/Animation/ABP_FrostyGhost : Can't find file for asset. /Script/Homework6
-[2017.11.12-21.13.53:977][864]LogLinker: Warning: Can't find file '/Script/Homework6'
-[2017.11.12-21.13.53:977][864]LogLinker: Warning: Can't find file for asset '/Script/Homework6' while loading C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Animation/ABP_FrostyGhost.uasset.
-[2017.11.12-21.13.53:991][864]LogLinker: Warning: Can't find file '/Script/Homework6'
-[2017.11.12-21.13.53:991][864]LogLinker: Warning: Can't find file for asset '/Script/Homework6' while loading C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Blueprints/BTD_CloseEnough.uasset.
-[2017.11.12-21.13.53:991][864]LoadErrors: Error: /Game/FrostyGhost/Blueprints/BTD_CloseEnough : Can't find file for asset. /Script/Homework6
-[2017.11.12-21.13.54:003][864]LogLinker: Warning: Can't find file '/Script/Homework6'
-[2017.11.12-21.13.54:003][864]LogLinker: Warning: Can't find file for asset '/Script/Homework6' while loading C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Blueprints/BTS_AggroCheck.uasset.
-[2017.11.12-21.13.54:003][864]LoadErrors: Error: /Game/FrostyGhost/Blueprints/BTS_AggroCheck : Can't find file for asset. /Script/Homework6
-[2017.11.12-21.13.54:009][864]LogLinker: Warning: Can't find file '/Script/Homework6'
-[2017.11.12-21.13.54:009][864]LogLinker: Warning: Can't find file for asset '/Script/Homework6' while loading C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Blueprints/BTD_CloseEnough.uasset.
-[2017.11.12-21.13.54:021][864]LogLinker: Warning: Can't find file '/Script/Homework6'
-[2017.11.12-21.13.54:022][864]LogLinker: Warning: Can't find file for asset '/Script/Homework6' while loading C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Blueprints/BTT_RapidMoveTo.uasset.
-[2017.11.12-21.13.54:022][864]LoadErrors: Error: /Game/FrostyGhost/Blueprints/BTT_RapidMoveTo : Can't find file for asset. /Script/Homework6
-[2017.11.12-21.13.54:023][864]LogLinker: Warning: Can't find file '/Script/Homework6'
-[2017.11.12-21.13.54:023][864]LogLinker: Warning: Can't find file for asset '/Script/Homework6' while loading C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Blueprints/BTD_CloseEnough.uasset.
-[2017.11.12-21.13.54:026][864]LogLinker: Warning: Can't find file '/Script/Homework6'
-[2017.11.12-21.13.54:026][864]LogLinker: Warning: Can't find file for asset '/Script/Homework6' while loading C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Blueprints/BTD_CloseEnough.uasset.
-[2017.11.12-21.13.54:027][864]LogLinker: Warning: Can't find file '/Script/Homework6'
-[2017.11.12-21.13.54:027][864]LogLinker: Warning: Can't find file for asset '/Script/Homework6' while loading C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Blueprints/BTD_CloseEnough.uasset.
-[2017.11.12-21.13.54:027][864]LogLinker: Warning: Can't find file '/Script/Homework6'
-[2017.11.12-21.13.54:027][864]LogLinker: Warning: Can't find file for asset '/Script/Homework6' while loading C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Blueprints/BTD_CloseEnough.uasset.
-[2017.11.12-21.13.54:027][864]LogLinker: Warning: Can't find file '/Script/Homework6'
-[2017.11.12-21.13.54:027][864]LogLinker: Warning: Can't find file for asset '/Script/Homework6' while loading C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Blueprints/BTD_CloseEnough.uasset.
-[2017.11.12-21.13.54:027][864]LogLinker: Warning: Can't find file '/Script/Homework6'
-[2017.11.12-21.13.54:027][864]LogLinker: Warning: Can't find file for asset '/Script/Homework6' while loading C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Blueprints/BTD_CloseEnough.uasset.
-[2017.11.12-21.13.54:031][864]LogLinker: Warning: Can't find file '/Script/Homework6'
-[2017.11.12-21.13.54:031][864]LogLinker: Warning: Can't find file for asset '/Script/Homework6' while loading C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Blueprints/BTD_CloseEnough.uasset.
-[2017.11.12-21.13.54:035][864]LogLinker: Warning: Can't find file '/Script/Homework6'
-[2017.11.12-21.13.54:036][864]LogLinker: Warning: Can't find file for asset '/Script/Homework6' while loading C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.uasset.
-[2017.11.12-21.13.54:036][864]LoadErrors: Error: /Game/FrostyGhost/Blueprints/BP_FrostyGhost_AIController : Can't find file for asset. /Script/Homework6
-[2017.11.12-21.13.54:037][864]LogLinker: Warning: Can't find file '/Script/Homework6'
-[2017.11.12-21.13.54:037][864]LogLinker: Warning: Can't find file for asset '/Script/Homework6' while loading C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.uasset.
-[2017.11.12-21.13.54:037][864]LogLinker: Warning: Can't find file '/Script/Homework6'
-[2017.11.12-21.13.54:037][864]LogLinker: Warning: Can't find file for asset '/Script/Homework6' while loading C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.uasset.
-[2017.11.12-21.13.54:037][864]LogLinker: Warning: Can't find file '/Script/Homework6'
-[2017.11.12-21.13.54:037][864]LogLinker: Warning: Can't find file for asset '/Script/Homework6' while loading C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.uasset.
-[2017.11.12-21.13.54:037][864]LogLinker: Warning: Can't find file '/Script/Homework6'
-[2017.11.12-21.13.54:038][864]LogLinker: Warning: Can't find file for asset '/Script/Homework6' while loading C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.uasset.
-[2017.11.12-21.13.54:038][864]LogLinker: Warning: Can't find file '/Script/Homework6'
-[2017.11.12-21.13.54:038][864]LogLinker: Warning: Can't find file for asset '/Script/Homework6' while loading C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Animation/ABP_FrostyGhost.uasset.
-[2017.11.12-21.13.54:038][864]LogLinker: Warning: Can't find file '/Script/Homework6'
-[2017.11.12-21.13.54:038][864]LogLinker: Warning: Can't find file for asset '/Script/Homework6' while loading C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Animation/ABP_FrostyGhost.uasset.
-[2017.11.12-21.13.54:038][864]LogLinker: Warning: Can't find file '/Script/Homework6'
-[2017.11.12-21.13.54:038][864]LogLinker: Warning: Can't find file for asset '/Script/Homework6' while loading C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Animation/ABP_FrostyGhost.uasset.
-[2017.11.12-21.13.54:038][864]LogLinker: Warning: Can't find file '/Script/Homework6'
-[2017.11.12-21.13.54:038][864]LogLinker: Warning: Can't find file for asset '/Script/Homework6' while loading C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Animation/ABP_FrostyGhost.uasset.
-[2017.11.12-21.13.54:039][864]LogLinker: Warning: Can't find file '/Script/Homework6'
-[2017.11.12-21.13.54:039][864]LogLinker: Warning: Can't find file for asset '/Script/Homework6' while loading C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Animation/ABP_FrostyGhost.uasset.
-[2017.11.12-21.13.54:078][864]LogLinker: Warning: Can't find file '/Script/Homework6'
-[2017.11.12-21.13.54:078][864]LogLinker: Warning: Can't find file for asset '/Script/Homework6' while loading C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Animation/ABP_FrostyGhost.uasset.
-[2017.11.12-21.13.54:079][864]LogLinker: Warning: Can't find file '/Script/Homework6'
-[2017.11.12-21.13.54:079][864]LogLinker: Warning: Can't find file for asset '/Script/Homework6' while loading C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Blueprints/BP_FrostyGhost_Character.uasset.
-[2017.11.12-21.13.54:079][864]LoadErrors: Error: /Game/FrostyGhost/Blueprints/BP_FrostyGhost_Character : Can't find file for asset. /Script/Homework6
-[2017.11.12-21.13.54:079][864]LogLinker: Warning: Can't find file '/Script/Homework6'
-[2017.11.12-21.13.54:079][864]LogLinker: Warning: Can't find file for asset '/Script/Homework6' while loading C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Blueprints/BP_FrostyGhost_Character.uasset.
-[2017.11.12-21.13.54:080][864]LogLinker: Warning: Can't find file '/Script/Homework6'
-[2017.11.12-21.13.54:080][864]LogLinker: Warning: Can't find file for asset '/Script/Homework6' while loading C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Blueprints/BP_FrostyGhost_Character.uasset.
-[2017.11.12-21.13.54:081][864]LogLinker: Warning: Can't find file '/Script/Homework6'
-[2017.11.12-21.13.54:081][864]LogLinker: Warning: Can't find file for asset '/Script/Homework6' while loading C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Blueprints/BP_FrostyGhost_Character.uasset.
-[2017.11.12-21.13.54:082][864]LogLinker: Warning: Can't find file '/Script/Homework6'
-[2017.11.12-21.13.54:082][864]LogLinker: Warning: Can't find file for asset '/Script/Homework6' while loading C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Blueprints/BP_FrostyGhost_Character.uasset.
-[2017.11.12-21.13.54:082][864]LogLinker: Warning: Can't find file '/Script/Homework6'
-[2017.11.12-21.13.54:082][864]LogLinker: Warning: Can't find file for asset '/Script/Homework6' while loading C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Blueprints/BP_FrostyGhost_Character.uasset.
-[2017.11.12-21.13.54:212][864]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.12-21.13.54:721][864]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0022 seconds. Added 113 classes and 0 folders.
-[2017.11.12-21.13.55:512][864]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.12-21.13.56:428][900]LogStaticMesh: Allocated 510x145x64 distance field atlas = 9.0Mb, with 57 objects containing 4.0Mb backing data
-[2017.11.12-21.13.59:303][ 30]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.11.12-21.14.08:065][541]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.11.12-21.14.15:109][ 22]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.12-21.14.15:171][ 22]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.11.12-21.14.15:171][ 22]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.12-21.14.15:172][ 22]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 12, 2017, 7:14:15 AM)
-[2017.11.12-21.14.15:172][ 22]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2017.11.12-21.14.15:222][ 22]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049804s)
-[2017.11.12-21.14.15:223][ 22]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2017.11.12-21.14.15:223][ 22]LogPlayLevel: PIE: World Init took: (0.001636s)
-[2017.11.12-21.14.15:224][ 22]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.052061s)
-[2017.11.12-21.14.15:292][ 22]LogInit: XAudio2 using '4 - LG TV RVU (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.12-21.14.15:299][ 22]LogInit: FAudioDevice initialized.
-[2017.11.12-21.14.15:340][ 22]LogLoad: Game class is 'SammysGreatAdventureGameMode'
-[2017.11.12-21.14.15:342][ 22]LogModelComponent: Warning: Material Ice requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
-[2017.11.12-21.14.15:342][ 22]LogModelComponent: Warning: Material Ice requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
-[2017.11.12-21.14.15:343][ 22]LogModelComponent: Warning: Material Ice requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
-[2017.11.12-21.14.15:350][ 22]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.12-14.14.15
-[2017.11.12-21.14.15:352][ 22]LogWorld: Bringing up level for play took: 0.010166
-[2017.11.12-21.14.15:391][ 22]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0017 seconds. Added 11 classes and 0 folders.
-[2017.11.12-21.14.15:394][ 22]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.357
-[2017.11.12-21.14.15:394][ 22]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.11.12-21.14.16:568][147]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.14.18:266][335]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.14.19:498][454]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.14.20:362][543]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.14.21:230][629]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.14.22:101][713]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.14.22:964][790]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.14.25:187][ 16]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.14.27:516][256]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.14.29:756][476]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.14.30:614][559]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.14.31:484][647]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.14.32:350][737]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.14.33:219][827]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.14.35:452][ 68]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.14.36:313][159]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.14.37:178][252]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.14.39:395][473]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.14.40:256][555]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.14.43:775][869]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.14.47:400][187]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.14.48:266][264]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.14.52:105][666]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.11.12-21.14.52:197][666]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.11.12-21.14.54:017][811]LogEditorViewport: Clicking on Actor (LMB): BP_FrostyGhost_Character_C (BP_FrostyGhost_Character)
-[2017.11.12-21.14.55:328][928]Cmd: DELETE
-[2017.11.12-21.14.55:328][928]Cmd: ACTOR DELETE
-[2017.11.12-21.14.55:329][928]LogEditorActor: Deleted Actor: BP_FrostyGhost_Character_C
-[2017.11.12-21.14.55:375][928]LogEditorActor: Deleted 1 Actors (0.047 secs)
-[2017.11.12-21.15.04:342][852]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.12-21.15.04:366][852]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.11.12-21.15.04:366][852]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.12-21.15.04:366][852]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 12, 2017, 7:15:04 AM)
-[2017.11.12-21.15.04:367][852]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2017.11.12-21.15.04:414][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047755s)
-[2017.11.12-21.15.04:415][852]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2017.11.12-21.15.04:415][852]LogPlayLevel: PIE: World Init took: (0.001075s)
-[2017.11.12-21.15.04:416][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.049249s)
-[2017.11.12-21.15.04:479][852]LogInit: XAudio2 using '4 - LG TV RVU (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.12-21.15.04:486][852]LogInit: FAudioDevice initialized.
-[2017.11.12-21.15.04:520][852]LogLoad: Game class is 'SammysGreatAdventureGameMode'
-[2017.11.12-21.15.04:521][852]LogModelComponent: Warning: Material Ice requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
-[2017.11.12-21.15.04:521][852]LogModelComponent: Warning: Material Ice requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
-[2017.11.12-21.15.04:521][852]LogModelComponent: Warning: Material Ice requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
-[2017.11.12-21.15.04:529][852]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.12-14.15.04
-[2017.11.12-21.15.04:531][852]LogWorld: Bringing up level for play took: 0.010219
-[2017.11.12-21.15.04:534][852]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.784
-[2017.11.12-21.15.04:534][852]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.11.12-21.15.05:586][971]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.15.06:463][ 76]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.15.07:323][179]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.15.08:191][283]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.15.09:059][387]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.15.09:928][491]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.15.10:839][599]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.15.13:060][857]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.15.14:917][ 77]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.11.12-21.15.15:002][ 77]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.11.12-21.15.20:131][442]LogSavePackage: Save=443.16ms
-[2017.11.12-21.15.20:132][442]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap818ABC54482D694E004528AA4C2BBD77.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
-[2017.11.12-21.15.20:136][442]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
-[2017.11.12-21.15.20:851][442]LogSavePackage: Save=646.02ms
-[2017.11.12-21.15.20:851][442]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_BuiltDataC84B07C447720DE890467EA78084DE05.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2017.11.12-21.15.20:853][442]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset
-[2017.11.12-21.15.44:979][450]LogTemp: Repeating last play command: Selected Viewport
-[2017.11.12-21.15.45:003][450]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.11.12-21.15.45:003][450]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.12-21.15.45:003][450]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 12, 2017, 7:15:45 AM)
-[2017.11.12-21.15.45:003][450]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2017.11.12-21.15.45:054][450]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050253s)
-[2017.11.12-21.15.45:054][450]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2017.11.12-21.15.45:055][450]LogPlayLevel: PIE: World Init took: (0.000906s)
-[2017.11.12-21.15.45:055][450]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.051519s)
-[2017.11.12-21.15.45:124][450]LogInit: XAudio2 using '4 - LG TV RVU (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.12-21.15.45:132][450]LogInit: FAudioDevice initialized.
-[2017.11.12-21.15.45:167][450]LogLoad: Game class is 'SammysGreatAdventureGameMode'
-[2017.11.12-21.15.45:168][450]LogModelComponent: Warning: Material Ice requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
-[2017.11.12-21.15.45:168][450]LogModelComponent: Warning: Material Ice requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
-[2017.11.12-21.15.45:168][450]LogModelComponent: Warning: Material Ice requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
-[2017.11.12-21.15.45:177][450]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.12-14.15.45
-[2017.11.12-21.15.45:178][450]LogWorld: Bringing up level for play took: 0.010382
-[2017.11.12-21.15.45:181][450]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.569
-[2017.11.12-21.15.45:181][450]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.11.12-21.15.46:322][511]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.15.48:437][627]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.15.49:311][681]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.16.02:049][467]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.16.05:777][693]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
-[2017.11.12-21.16.08:247][842]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.11.12-21.16.08:329][842]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.11.12-21.16.12:960][127]LogSavePackage: Save=454.04ms
-[2017.11.12-21.16.12:960][127]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap02BEE766493CD09DF3E9D1BF1128BC00.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
-[2017.11.12-21.16.12:964][127]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
-[2017.11.12-21.16.13:406][127]LogSavePackage: Save=394.50ms
-[2017.11.12-21.16.13:406][127]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_BuiltData92DE3F6B4910564126DEC281580AD30A.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2017.11.12-21.16.13:409][127]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset
-[2017.11.12-21.16.23:970][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTT_RapidMoveTo.BTT_RapidMoveTo_C' ref from Metadata '/Game/FrostyGhost/Blueprints/BTT_RapidMoveTo.PackageMetaData'
-[2017.11.12-21.16.23:970][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTT_RapidMoveTo.SKEL_BTT_RapidMoveTo_C:ReceiveExecute' ref from Metadata '/Game/FrostyGhost/Blueprints/BTT_RapidMoveTo.PackageMetaData'
-[2017.11.12-21.16.23:970][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTT_RapidMoveTo.SKEL_BTT_RapidMoveTo_C:ActorToFollow' ref from Metadata '/Game/FrostyGhost/Blueprints/BTT_RapidMoveTo.PackageMetaData'
-[2017.11.12-21.16.23:970][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTT_RapidMoveTo.SKEL_BTT_RapidMoveTo_C:AI_CON_REF' ref from Metadata '/Game/FrostyGhost/Blueprints/BTT_RapidMoveTo.PackageMetaData'
-[2017.11.12-21.16.23:970][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTT_RapidMoveTo.SKEL_BTT_RapidMoveTo_C' ref from Metadata '/Game/FrostyGhost/Blueprints/BTT_RapidMoveTo.PackageMetaData'
-[2017.11.12-21.16.23:970][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTT_RapidMoveTo.BTT_RapidMoveTo_C:ActorToFollow' ref from Metadata '/Game/FrostyGhost/Blueprints/BTT_RapidMoveTo.PackageMetaData'
-[2017.11.12-21.16.23:970][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTT_RapidMoveTo.BTT_RapidMoveTo_C:AI_CON_REF' ref from Metadata '/Game/FrostyGhost/Blueprints/BTT_RapidMoveTo.PackageMetaData'
-[2017.11.12-21.16.23:971][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTT_RapidMoveTo.BTT_RapidMoveTo_C:ReceiveExecute' ref from Metadata '/Game/FrostyGhost/Blueprints/BTT_RapidMoveTo.PackageMetaData'
-[2017.11.12-21.16.23:971][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTT_RapidMoveTo.BTT_RapidMoveTo_C:ExecuteUbergraph_BTT_RapidMoveTo' ref from Metadata '/Game/FrostyGhost/Blueprints/BTT_RapidMoveTo.PackageMetaData'
-[2017.11.12-21.16.23:971][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTT_RapidMoveTo.BTT_RapidMoveTo_C:OnSuccess_0ED7FB074CE9C01269CC648E2248982F' ref from Metadata '/Game/FrostyGhost/Blueprints/BTT_RapidMoveTo.PackageMetaData'
-[2017.11.12-21.16.23:971][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTT_RapidMoveTo.BTT_RapidMoveTo_C:OnFail_0ED7FB074CE9C01269CC648E2248982F' ref from Metadata '/Game/FrostyGhost/Blueprints/BTT_RapidMoveTo.PackageMetaData'
-[2017.11.12-21.16.24:026][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTS_AggroCheck.BTS_AggroCheck_C' ref from Metadata '/Game/FrostyGhost/Blueprints/BTS_AggroCheck.PackageMetaData'
-[2017.11.12-21.16.24:026][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTS_AggroCheck.SKEL_BTS_AggroCheck_C:ReceiveTick' ref from Metadata '/Game/FrostyGhost/Blueprints/BTS_AggroCheck.PackageMetaData'
-[2017.11.12-21.16.24:026][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTS_AggroCheck.SKEL_BTS_AggroCheck_C:Thinking?' ref from Metadata '/Game/FrostyGhost/Blueprints/BTS_AggroCheck.PackageMetaData'
-[2017.11.12-21.16.24:026][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTS_AggroCheck.SKEL_BTS_AggroCheck_C:TargetLocation' ref from Metadata '/Game/FrostyGhost/Blueprints/BTS_AggroCheck.PackageMetaData'
-[2017.11.12-21.16.24:026][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTS_AggroCheck.SKEL_BTS_AggroCheck_C:ActorToFollow' ref from Metadata '/Game/FrostyGhost/Blueprints/BTS_AggroCheck.PackageMetaData'
-[2017.11.12-21.16.24:026][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTS_AggroCheck.SKEL_BTS_AggroCheck_C:DesiredObjectTypes' ref from Metadata '/Game/FrostyGhost/Blueprints/BTS_AggroCheck.PackageMetaData'
-[2017.11.12-21.16.24:026][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTS_AggroCheck.SKEL_BTS_AggroCheck_C:MyLocation' ref from Metadata '/Game/FrostyGhost/Blueprints/BTS_AggroCheck.PackageMetaData'
-[2017.11.12-21.16.24:026][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTS_AggroCheck.SKEL_BTS_AggroCheck_C:AI_CON_REF' ref from Metadata '/Game/FrostyGhost/Blueprints/BTS_AggroCheck.PackageMetaData'
-[2017.11.12-21.16.24:026][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTS_AggroCheck.SKEL_BTS_AggroCheck_C' ref from Metadata '/Game/FrostyGhost/Blueprints/BTS_AggroCheck.PackageMetaData'
-[2017.11.12-21.16.24:026][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTS_AggroCheck.BTS_AggroCheck_C:Thinking?' ref from Metadata '/Game/FrostyGhost/Blueprints/BTS_AggroCheck.PackageMetaData'
-[2017.11.12-21.16.24:026][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTS_AggroCheck.BTS_AggroCheck_C:TargetLocation' ref from Metadata '/Game/FrostyGhost/Blueprints/BTS_AggroCheck.PackageMetaData'
-[2017.11.12-21.16.24:026][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTS_AggroCheck.BTS_AggroCheck_C:ActorToFollow' ref from Metadata '/Game/FrostyGhost/Blueprints/BTS_AggroCheck.PackageMetaData'
-[2017.11.12-21.16.24:026][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTS_AggroCheck.BTS_AggroCheck_C:DesiredObjectTypes' ref from Metadata '/Game/FrostyGhost/Blueprints/BTS_AggroCheck.PackageMetaData'
-[2017.11.12-21.16.24:026][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTS_AggroCheck.BTS_AggroCheck_C:MyLocation' ref from Metadata '/Game/FrostyGhost/Blueprints/BTS_AggroCheck.PackageMetaData'
-[2017.11.12-21.16.24:026][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTS_AggroCheck.BTS_AggroCheck_C:AI_CON_REF' ref from Metadata '/Game/FrostyGhost/Blueprints/BTS_AggroCheck.PackageMetaData'
-[2017.11.12-21.16.24:026][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTS_AggroCheck.BTS_AggroCheck_C:ReceiveTick' ref from Metadata '/Game/FrostyGhost/Blueprints/BTS_AggroCheck.PackageMetaData'
-[2017.11.12-21.16.24:026][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTS_AggroCheck.BTS_AggroCheck_C:ExecuteUbergraph_BTS_AggroCheck' ref from Metadata '/Game/FrostyGhost/Blueprints/BTS_AggroCheck.PackageMetaData'
-[2017.11.12-21.16.24:079][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTD_CloseEnough.BTD_CloseEnough_C' ref from Metadata '/Game/FrostyGhost/Blueprints/BTD_CloseEnough.PackageMetaData'
-[2017.11.12-21.16.24:080][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTD_CloseEnough.BTD_CloseEnough:PerformConditionCheck.K2Node_FunctionEntry_1' ref from Metadata '/Game/FrostyGhost/Blueprints/BTD_CloseEnough.PackageMetaData'
-[2017.11.12-21.16.24:080][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTD_CloseEnough.BTD_CloseEnough:PerformConditionCheck.K2Node_FunctionResult_0' ref from Metadata '/Game/FrostyGhost/Blueprints/BTD_CloseEnough.PackageMetaData'
-[2017.11.12-21.16.24:080][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTD_CloseEnough.SKEL_BTD_CloseEnough_C:AcceptableDistance' ref from Metadata '/Game/FrostyGhost/Blueprints/BTD_CloseEnough.PackageMetaData'
-[2017.11.12-21.16.24:080][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTD_CloseEnough.SKEL_BTD_CloseEnough_C:ActorToFollow' ref from Metadata '/Game/FrostyGhost/Blueprints/BTD_CloseEnough.PackageMetaData'
-[2017.11.12-21.16.24:080][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTD_CloseEnough.SKEL_BTD_CloseEnough_C:AI_CON_REF' ref from Metadata '/Game/FrostyGhost/Blueprints/BTD_CloseEnough.PackageMetaData'
-[2017.11.12-21.16.24:080][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTD_CloseEnough.SKEL_BTD_CloseEnough_C:PerformConditionCheck' ref from Metadata '/Game/FrostyGhost/Blueprints/BTD_CloseEnough.PackageMetaData'
-[2017.11.12-21.16.24:080][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTD_CloseEnough.SKEL_BTD_CloseEnough_C' ref from Metadata '/Game/FrostyGhost/Blueprints/BTD_CloseEnough.PackageMetaData'
-[2017.11.12-21.16.24:080][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTD_CloseEnough.BTD_CloseEnough_C:AcceptableDistance' ref from Metadata '/Game/FrostyGhost/Blueprints/BTD_CloseEnough.PackageMetaData'
-[2017.11.12-21.16.24:080][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTD_CloseEnough.BTD_CloseEnough_C:ActorToFollow' ref from Metadata '/Game/FrostyGhost/Blueprints/BTD_CloseEnough.PackageMetaData'
-[2017.11.12-21.16.24:080][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTD_CloseEnough.BTD_CloseEnough_C:AI_CON_REF' ref from Metadata '/Game/FrostyGhost/Blueprints/BTD_CloseEnough.PackageMetaData'
-[2017.11.12-21.16.24:080][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BTD_CloseEnough.BTD_CloseEnough_C:PerformConditionCheck' ref from Metadata '/Game/FrostyGhost/Blueprints/BTD_CloseEnough.PackageMetaData'
-[2017.11.12-21.16.24:132][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/FrostyGhost_BT.FrostyGhost_BT:Behavior Tree.BehaviorTreeGraphNode_Root_0' ref from Metadata '/Game/FrostyGhost/Blueprints/FrostyGhost_BT.PackageMetaData'
-[2017.11.12-21.16.24:185][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.BP_FrostyGhost_AIController_C' ref from Metadata '/Game/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.PackageMetaData'
-[2017.11.12-21.16.24:185][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.BP_FrostyGhost_AIController:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.PackageMetaData'
-[2017.11.12-21.16.24:185][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.BP_FrostyGhost_AIController:EventGraph.K2Node_Event_0' ref from Metadata '/Game/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.PackageMetaData'
-[2017.11.12-21.16.24:185][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.BP_FrostyGhost_AIController:EventGraph.K2Node_Event_1' ref from Metadata '/Game/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.PackageMetaData'
-[2017.11.12-21.16.24:185][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.SKEL_BP_FrostyGhost_AIController_C:ReceiveBeginPlay' ref from Metadata '/Game/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.PackageMetaData'
-[2017.11.12-21.16.24:185][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.SKEL_BP_FrostyGhost_AIController_C:ReceiveTick' ref from Metadata '/Game/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.PackageMetaData'
-[2017.11.12-21.16.24:186][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.SKEL_BP_FrostyGhost_AIController_C:HomeLocation' ref from Metadata '/Game/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.PackageMetaData'
-[2017.11.12-21.16.24:186][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.SKEL_BP_FrostyGhost_AIController_C:UserConstructionScript' ref from Metadata '/Game/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.PackageMetaData'
-[2017.11.12-21.16.24:186][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.SKEL_BP_FrostyGhost_AIController_C' ref from Metadata '/Game/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.PackageMetaData'
-[2017.11.12-21.16.24:186][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.BP_FrostyGhost_AIController_C:HomeLocation' ref from Metadata '/Game/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.PackageMetaData'
-[2017.11.12-21.16.24:186][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.BP_FrostyGhost_AIController_C:ReceiveBeginPlay' ref from Metadata '/Game/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.PackageMetaData'
-[2017.11.12-21.16.24:186][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.BP_FrostyGhost_AIController_C:UserConstructionScript' ref from Metadata '/Game/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.PackageMetaData'
-[2017.11.12-21.16.24:186][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.BP_FrostyGhost_AIController_C:ExecuteUbergraph_BP_FrostyGhost_AIController' ref from Metadata '/Game/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.PackageMetaData'
-[2017.11.12-21.16.24:825][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Animation/ABP_FrostyGhost.ABP_FrostyGhost:AnimGraph.AnimGraphNode_Root_0' ref from Metadata '/Game/FrostyGhost/Animation/ABP_FrostyGhost.PackageMetaData'
-[2017.11.12-21.16.24:825][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Animation/ABP_FrostyGhost.ABP_FrostyGhost_C' ref from Metadata '/Game/FrostyGhost/Animation/ABP_FrostyGhost.PackageMetaData'
-[2017.11.12-21.16.24:826][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Animation/ABP_FrostyGhost.ABP_FrostyGhost:EventGraph.K2Node_Event_0' ref from Metadata '/Game/FrostyGhost/Animation/ABP_FrostyGhost.PackageMetaData'
-[2017.11.12-21.16.24:826][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Animation/ABP_FrostyGhost.ABP_FrostyGhost:AnimGraph.AnimGraphNode_StateMachine_0.IdleMoveThinkAttack.AnimStateEntryNode_0' ref from Metadata '/Game/FrostyGhost/Animation/ABP_FrostyGhost.PackageMetaData'
-[2017.11.12-21.16.24:826][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Animation/ABP_FrostyGhost.ABP_FrostyGhost:AnimGraph.AnimGraphNode_StateMachine_0.IdleMoveThinkAttack.AnimStateNode_4.AttackStart.AnimGraphNode_StateResult_7' ref from Metadata '/Game/FrostyGhost/Animation/ABP_FrostyGhost.PackageMetaData'
-[2017.11.12-21.16.24:826][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Animation/ABP_FrostyGhost.ABP_FrostyGhost:AnimGraph.AnimGraphNode_StateMachine_0.IdleMoveThinkAttack.AnimStateNode_2.Think.AnimGraphNode_StateResult_0' ref from Metadata '/Game/FrostyGhost/Animation/ABP_FrostyGhost.PackageMetaData'
-[2017.11.12-21.16.24:826][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Animation/ABP_FrostyGhost.ABP_FrostyGhost:AnimGraph.AnimGraphNode_StateMachine_0.IdleMoveThinkAttack.AnimStateTransitionNode_1.Transition.AnimGraphNode_TransitionResult_15' ref from Metadata '/Game/FrostyGhost/Animation/ABP_FrostyGhost.PackageMetaData'
-[2017.11.12-21.16.24:826][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Animation/ABP_FrostyGhost.ABP_FrostyGhost:AnimGraph.AnimGraphNode_StateMachine_0.IdleMoveThinkAttack.AnimStateNode_6.IdleMove.AnimGraphNode_StateResult_31' ref from Metadata '/Game/FrostyGhost/Animation/ABP_FrostyGhost.PackageMetaData'
-[2017.11.12-21.16.24:826][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Animation/ABP_FrostyGhost.ABP_FrostyGhost:AnimGraph.AnimGraphNode_StateMachine_0.IdleMoveThinkAttack.AnimStateTransitionNode_4.Transition.AnimGraphNode_TransitionResult_82' ref from Metadata '/Game/FrostyGhost/Animation/ABP_FrostyGhost.PackageMetaData'
-[2017.11.12-21.16.24:826][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Animation/ABP_FrostyGhost.ABP_FrostyGhost:AnimGraph.AnimGraphNode_StateMachine_0.IdleMoveThinkAttack.AnimStateTransitionNode_5.Transition.AnimGraphNode_TransitionResult_85' ref from Metadata '/Game/FrostyGhost/Animation/ABP_FrostyGhost.PackageMetaData'
-[2017.11.12-21.16.24:826][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Animation/ABP_FrostyGhost.ABP_FrostyGhost:AnimGraph.AnimGraphNode_StateMachine_0.IdleMoveThinkAttack.AnimStateNode_8.Attacking.AnimGraphNode_StateResult_91' ref from Metadata '/Game/FrostyGhost/Animation/ABP_FrostyGhost.PackageMetaData'
-[2017.11.12-21.16.24:826][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Animation/ABP_FrostyGhost.ABP_FrostyGhost:AnimGraph.AnimGraphNode_StateMachine_0.IdleMoveThinkAttack.AnimStateTransitionNode_7.Transition.AnimGraphNode_TransitionResult_137' ref from Metadata '/Game/FrostyGhost/Animation/ABP_FrostyGhost.PackageMetaData'
-[2017.11.12-21.16.24:826][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Animation/ABP_FrostyGhost.ABP_FrostyGhost:AnimGraph.AnimGraphNode_StateMachine_0.IdleMoveThinkAttack.AnimStateTransitionNode_8.Transition.AnimGraphNode_TransitionResult_146' ref from Metadata '/Game/FrostyGhost/Animation/ABP_FrostyGhost.PackageMetaData'
-[2017.11.12-21.16.24:826][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Animation/ABP_FrostyGhost.ABP_FrostyGhost:AnimGraph.AnimGraphNode_StateMachine_0.IdleMoveThinkAttack.AnimStateTransitionNode_9.Transition.AnimGraphNode_TransitionResult_202' ref from Metadata '/Game/FrostyGhost/Animation/ABP_FrostyGhost.PackageMetaData'
-[2017.11.12-21.16.24:826][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Animation/ABP_FrostyGhost.SKEL_ABP_FrostyGhost_C:BlueprintUpdateAnimation' ref from Metadata '/Game/FrostyGhost/Animation/ABP_FrostyGhost.PackageMetaData'
-[2017.11.12-21.16.24:826][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Animation/ABP_FrostyGhost.SKEL_ABP_FrostyGhost_C:Speed' ref from Metadata '/Game/FrostyGhost/Animation/ABP_FrostyGhost.PackageMetaData'
-[2017.11.12-21.16.24:826][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Animation/ABP_FrostyGhost.SKEL_ABP_FrostyGhost_C:Attacking?' ref from Metadata '/Game/FrostyGhost/Animation/ABP_FrostyGhost.PackageMetaData'
-[2017.11.12-21.16.24:826][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Animation/ABP_FrostyGhost.SKEL_ABP_FrostyGhost_C:Thinking?' ref from Metadata '/Game/FrostyGhost/Animation/ABP_FrostyGhost.PackageMetaData'
-[2017.11.12-21.16.24:826][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Animation/ABP_FrostyGhost.SKEL_ABP_FrostyGhost_C' ref from Metadata '/Game/FrostyGhost/Animation/ABP_FrostyGhost.PackageMetaData'
-[2017.11.12-21.16.24:826][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Animation/ABP_FrostyGhost.ABP_FrostyGhost_C:Speed' ref from Metadata '/Game/FrostyGhost/Animation/ABP_FrostyGhost.PackageMetaData'
-[2017.11.12-21.16.24:826][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Animation/ABP_FrostyGhost.ABP_FrostyGhost_C:Attacking?' ref from Metadata '/Game/FrostyGhost/Animation/ABP_FrostyGhost.PackageMetaData'
-[2017.11.12-21.16.24:826][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Animation/ABP_FrostyGhost.ABP_FrostyGhost_C:Thinking?' ref from Metadata '/Game/FrostyGhost/Animation/ABP_FrostyGhost.PackageMetaData'
-[2017.11.12-21.16.24:826][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Animation/ABP_FrostyGhost.ABP_FrostyGhost_C:BlueprintUpdateAnimation' ref from Metadata '/Game/FrostyGhost/Animation/ABP_FrostyGhost.PackageMetaData'
-[2017.11.12-21.16.24:826][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Animation/ABP_FrostyGhost.ABP_FrostyGhost_C:ExecuteUbergraph_ABP_FrostyGhost' ref from Metadata '/Game/FrostyGhost/Animation/ABP_FrostyGhost.PackageMetaData'
-[2017.11.12-21.16.24:879][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BP_FrostyGhost_Character.BP_FrostyGhost_Character:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/FrostyGhost/Blueprints/BP_FrostyGhost_Character.PackageMetaData'
-[2017.11.12-21.16.24:879][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BP_FrostyGhost_Character.BP_FrostyGhost_Character_C' ref from Metadata '/Game/FrostyGhost/Blueprints/BP_FrostyGhost_Character.PackageMetaData'
-[2017.11.12-21.16.24:879][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BP_FrostyGhost_Character.BP_FrostyGhost_Character:EventGraph.K2Node_Event_0' ref from Metadata '/Game/FrostyGhost/Blueprints/BP_FrostyGhost_Character.PackageMetaData'
-[2017.11.12-21.16.24:879][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BP_FrostyGhost_Character.BP_FrostyGhost_Character:EventGraph.K2Node_Event_1' ref from Metadata '/Game/FrostyGhost/Blueprints/BP_FrostyGhost_Character.PackageMetaData'
-[2017.11.12-21.16.24:879][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BP_FrostyGhost_Character.BP_FrostyGhost_Character:EventGraph.K2Node_Event_2' ref from Metadata '/Game/FrostyGhost/Blueprints/BP_FrostyGhost_Character.PackageMetaData'
-[2017.11.12-21.16.24:879][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BP_FrostyGhost_Character.SKEL_BP_FrostyGhost_Character_C:ReceiveBeginPlay' ref from Metadata '/Game/FrostyGhost/Blueprints/BP_FrostyGhost_Character.PackageMetaData'
-[2017.11.12-21.16.24:879][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BP_FrostyGhost_Character.SKEL_BP_FrostyGhost_Character_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/FrostyGhost/Blueprints/BP_FrostyGhost_Character.PackageMetaData'
-[2017.11.12-21.16.24:879][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BP_FrostyGhost_Character.SKEL_BP_FrostyGhost_Character_C:ReceiveTick' ref from Metadata '/Game/FrostyGhost/Blueprints/BP_FrostyGhost_Character.PackageMetaData'
-[2017.11.12-21.16.24:879][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BP_FrostyGhost_Character.SKEL_BP_FrostyGhost_Character_C:UserConstructionScript' ref from Metadata '/Game/FrostyGhost/Blueprints/BP_FrostyGhost_Character.PackageMetaData'
-[2017.11.12-21.16.24:879][811]LogMetaData: Removing '/Game/Enemies/FrostyGhost/Blueprints/BP_FrostyGhost_Character.SKEL_BP_FrostyGhost_Character_C' ref from Metadata '/Game/FrostyGhost/Blueprints/BP_FrostyGhost_Character.PackageMetaData'
-[2017.11.12-21.16.25:517][811]LogSavePackage: Save=30.21ms
-[2017.11.12-21.16.25:517][811]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/BTT_RapidMoveToD7BF8E3741D3E109A1E2C2A76D0EC7A1.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Blueprints/BTT_RapidMoveTo.uasset'
-[2017.11.12-21.16.25:520][811]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Blueprints/BTT_RapidMoveTo.uasset
-[2017.11.12-21.16.25:620][811]LogSavePackage: Save=94.18ms
-[2017.11.12-21.16.25:620][811]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/BTS_AggroCheckB04EEE874C9F5DC29C2D319A0A973ED0.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Blueprints/BTS_AggroCheck.uasset'
-[2017.11.12-21.16.25:623][811]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Blueprints/BTS_AggroCheck.uasset
-[2017.11.12-21.16.25:665][811]LogSavePackage: Save=36.33ms
-[2017.11.12-21.16.25:665][811]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/BTD_CloseEnough6513C2954A29833E2791749D534332FD.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Blueprints/BTD_CloseEnough.uasset'
-[2017.11.12-21.16.25:668][811]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Blueprints/BTD_CloseEnough.uasset
-[2017.11.12-21.16.25:691][811]LogSavePackage: Save=17.71ms
-[2017.11.12-21.16.25:691][811]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/FrostyGhost_BTACA5A4B3486A9FABD46A1FBA7D52C8EC.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Blueprints/FrostyGhost_BT.uasset'
-[2017.11.12-21.16.25:694][811]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Blueprints/FrostyGhost_BT.uasset
-[2017.11.12-21.16.25:725][811]LogSavePackage: Save=25.16ms
-[2017.11.12-21.16.25:725][811]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/BP_FrostyGhost_AIControllerD7B4016B45AEC6E4EE2D0E88C2C08FC8.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.uasset'
-[2017.11.12-21.16.25:728][811]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Blueprints/BP_FrostyGhost_AIController.uasset
-[2017.11.12-21.16.25:741][811]LogSavePackage: Save=5.78ms
-[2017.11.12-21.16.25:741][811]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/FrostyGhost_Blackboard0878550D42CF2359F046FE87EC8C76F5.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Blueprints/FrostyGhost_Blackboard.uasset'
-[2017.11.12-21.16.25:745][811]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Blueprints/FrostyGhost_Blackboard.uasset
-[2017.11.12-21.16.25:793][811]LogSavePackage: Save=21.01ms
-[2017.11.12-21.16.25:793][811]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/FrostyGhost8455335A4DF32F6E76B084B43F5FCCCD.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Mesh/FrostyGhost.uasset'
-[2017.11.12-21.16.25:796][811]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Mesh/FrostyGhost.uasset
-[2017.11.12-21.16.25:815][811]LogSavePackage: Save=13.49ms
-[2017.11.12-21.16.25:815][811]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/FrostyGhost_PhysicsAssetA69113B64C56D826631E01827D16DC85.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Mesh/FrostyGhost_PhysicsAsset.uasset'
-[2017.11.12-21.16.25:818][811]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Mesh/FrostyGhost_PhysicsAsset.uasset
-[2017.11.12-21.16.25:857][811]LogSavePackage: Save=16.82ms
-[2017.11.12-21.16.25:857][811]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/M_Inst_FrostyGhost_Hands121FDD124C6A07A8A08A319ACA20F4BA.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Material/M_Inst_FrostyGhost_Hands.uasset'
-[2017.11.12-21.16.25:860][811]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Material/M_Inst_FrostyGhost_Hands.uasset
-[2017.11.12-21.16.25:895][811]LogSavePackage: Save=17.05ms
-[2017.11.12-21.16.25:895][811]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/M_Inst_FrostyGhost_EyesF88FBB8E4CBE5AF7ADF5FBA6522C2C18.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Material/M_Inst_FrostyGhost_Eyes.uasset'
-[2017.11.12-21.16.25:897][811]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Material/M_Inst_FrostyGhost_Eyes.uasset
-[2017.11.12-21.16.25:933][811]LogSavePackage: Save=21.38ms
-[2017.11.12-21.16.25:933][811]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/FrostyGhost_Eyes_texture5B3D172A4E2E8D01945FD1AC99AB59C5.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Texture/FrostyGhost_Eyes_texture.uasset'
-[2017.11.12-21.16.25:937][811]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Texture/FrostyGhost_Eyes_texture.uasset
-[2017.11.12-21.16.25:971][811]LogSavePackage: Save=16.80ms
-[2017.11.12-21.16.25:971][811]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/M_Inst_FrostyGhost_BodyA1FE0BA54169CD13BA520BA18FA04F4E.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Material/M_Inst_FrostyGhost_Body.uasset'
-[2017.11.12-21.16.25:975][811]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Material/M_Inst_FrostyGhost_Body.uasset
-[2017.11.12-21.16.26:003][811]LogSavePackage: Save=16.19ms
-[2017.11.12-21.16.26:003][811]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/texFrostyGhost_head05BB9185453260498558DBB7EBDD4628.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Texture/texFrostyGhost_head.uasset'
-[2017.11.12-21.16.26:006][811]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Texture/texFrostyGhost_head.uasset
-[2017.11.12-21.16.26:047][811]LogSavePackage: Save=23.46ms
-[2017.11.12-21.16.26:047][811]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/M_GhostlyE9CDBCA9421C864375F0FFACDA56D364.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Material/M_Ghostly.uasset'
-[2017.11.12-21.16.26:050][811]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Material/M_Ghostly.uasset
-[2017.11.12-21.16.26:080][811]LogSavePackage: Save=16.12ms
-[2017.11.12-21.16.26:080][811]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/texFrostyGhost_Hands410E2C694EBA5180665F42AF38CB2556.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Texture/texFrostyGhost_Hands.uasset'
-[2017.11.12-21.16.26:083][811]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Texture/texFrostyGhost_Hands.uasset
-[2017.11.12-21.16.26:099][811]LogSavePackage: Save=6.56ms
-[2017.11.12-21.16.26:099][811]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/LowResBlur_highcontrastDE9204FB44E02DA7FFBED0933B12DE99.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Texture/LowResBlur_highcontrast.uasset'
-[2017.11.12-21.16.26:102][811]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Texture/LowResBlur_highcontrast.uasset
-[2017.11.12-21.16.26:278][811]LogSavePackage: Save=131.66ms
-[2017.11.12-21.16.26:278][811]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ABP_FrostyGhostAD0DE1E148CB5A73E163AF8DE4FF1691.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Animation/ABP_FrostyGhost.uasset'
-[2017.11.12-21.16.26:281][811]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Animation/ABP_FrostyGhost.uasset
-[2017.11.12-21.16.26:332][811]LogSavePackage: Save=32.14ms
-[2017.11.12-21.16.26:332][811]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/BP_FrostyGhost_Character2D5174DB4DBE8847CD1C9C976FFE4CE7.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Blueprints/BP_FrostyGhost_Character.uasset'
-[2017.11.12-21.16.26:335][811]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Blueprints/BP_FrostyGhost_Character.uasset
-[2017.11.12-21.16.26:355][811]LogSavePackage: Save=5.94ms
-[2017.11.12-21.16.26:355][811]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/BP_FrostyGhost_Character3A817FD44B347FB3D736EE84482F9758.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Blueprints/BP_FrostyGhost_Character.uasset'
-[2017.11.12-21.16.26:358][811]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/FrostyGhost/Blueprints/BP_FrostyGhost_Character.uasset
-[2017.11.12-21.16.26:398][811]LogSavePackage: Save=15.25ms
-[2017.11.12-21.16.26:399][811]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/BS_FrostyGhost_IdleMove1AA1A12C49392662FF97359D04F27B51.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Animation/BS_FrostyGhost_IdleMove.uasset'
-[2017.11.12-21.16.26:402][811]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Animation/BS_FrostyGhost_IdleMove.uasset
-[2017.11.12-21.16.26:448][811]LogSavePackage: Save=20.34ms
-[2017.11.12-21.16.26:448][811]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/FrostGhost_Moving155F7F6C4D3AA17EE410F0B796BBF5C2.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Animation/FrostGhost_Moving.uasset'
-[2017.11.12-21.16.26:452][811]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Animation/FrostGhost_Moving.uasset
-[2017.11.12-21.16.26:485][811]LogSavePackage: Save=15.42ms
-[2017.11.12-21.16.26:485][811]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/FrostGhost_IdleCF0E93C34BE24163AB1A4EB3337C9B8E.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Animation/FrostGhost_Idle.uasset'
-[2017.11.12-21.16.26:489][811]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Animation/FrostGhost_Idle.uasset
-[2017.11.12-21.16.26:525][811]LogSavePackage: Save=15.13ms
-[2017.11.12-21.16.26:525][811]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/FrostGhost_Yell5ACDCAB24E0B98C315003281327D75CD.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Animation/FrostGhost_Yell.uasset'
-[2017.11.12-21.16.26:528][811]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Animation/FrostGhost_Yell.uasset
-[2017.11.12-21.16.26:565][811]LogSavePackage: Save=17.53ms
-[2017.11.12-21.16.26:565][811]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/FrostGhost_Thinking70ED42924A18E03E3EB89F967BEA5586.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Animation/FrostGhost_Thinking.uasset'
-[2017.11.12-21.16.26:568][811]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Animation/FrostGhost_Thinking.uasset
-[2017.11.12-21.16.26:602][811]LogSavePackage: Save=15.74ms
-[2017.11.12-21.16.26:602][811]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/FrostGhost_AttackingA40B0AD94F0EF483CA4254A3AFA1F057.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Animation/FrostGhost_Attacking.uasset'
-[2017.11.12-21.16.26:606][811]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Animation/FrostGhost_Attacking.uasset
-[2017.11.12-21.16.26:617][811]LogSavePackage: Save=5.67ms
-[2017.11.12-21.16.26:617][811]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/FrostyGhost_Skeleton692D3DAE4448BCAE3BDBCE99A2FADEA2.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Mesh/FrostyGhost_Skeleton.uasset'
-[2017.11.12-21.16.26:621][811]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Mesh/FrostyGhost_Skeleton.uasset
-[2017.11.12-21.16.26:633][811]LogSavePackage: Save=6.35ms
-[2017.11.12-21.16.26:633][811]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/LowResBlur553829704C74801681DBF7AD4A568C4F.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Texture/LowResBlur.uasset'
-[2017.11.12-21.16.26:636][811]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Texture/LowResBlur.uasset
-[2017.11.12-21.16.47:645][631]LogSavePackage: Save=23.22ms
-[2017.11.12-21.16.47:645][631]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/BP_FrostyGhost_Character798D1FBC4126754F83225BA1091D8284.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Blueprints/BP_FrostyGhost_Character.uasset'
-[2017.11.12-21.16.47:649][631]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Enemies/FrostyGhost/Blueprints/BP_FrostyGhost_Character.uasset
-[2017.11.12-21.17.29:507][147]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0018 seconds. Added 1 classes and 2 folders.
-[2017.11.12-21.17.29:642][147]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2017.11.12-21.17.29:964][147]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_14:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2017.11.12-21.17.30:393][147]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0018 seconds. Added 1 classes and 0 folders.
-[2017.11.12-21.17.30:456][147]LogStaticMesh: Allocated 510x145x64 distance field atlas = 9.0Mb, with 59 objects containing 4.3Mb backing data
-[2017.11.12-21.17.30:457][147]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
-[2017.11.12-21.17.42:112][874]LogSavePackage: Save=456.65ms
-[2017.11.12-21.17.42:112][874]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap9201FE7241EFD89EC6F17E8CAB9F3DF8.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
-[2017.11.12-21.17.42:116][874]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
-[2017.11.12-21.17.42:557][874]LogSavePackage: Save=393.86ms
-[2017.11.12-21.17.42:557][874]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_BuiltDataF1E6CC9540AADD54F8E21189A8490349.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2017.11.12-21.17.42:559][874]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset
-[2017.11.12-21.27.32:508][378]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.12-21.27.42:611][945]LogSavePackage: Save=444.70ms
-[2017.11.12-21.27.42:611][945]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_Auto1BD8EF0064AAD062BEF286084729E4612.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap'
-[2017.11.12-21.27.42:614][945]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap
-[2017.11.12-21.27.42:617][945]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 1.058
-[2017.11.12-21.27.42:617][945]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.058
-[2017.11.12-21.37.43:657][592]LogSavePackage: Save=439.02ms
-[2017.11.12-21.37.43:658][592]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_Auto2521C1AF94DE5E6DD4C0BE391168AC91B.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto2.umap'
-[2017.11.12-21.37.43:660][592]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto2.umap
-[2017.11.12-21.37.43:663][592]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.939
-[2017.11.12-21.37.43:663][592]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.939
-[2017.11.12-21.47.44:711][365]LogSavePackage: Save=443.06ms
-[2017.11.12-21.47.44:711][365]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_Auto3370BACD64AE135C9DD600F90EABA6EAA.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto3.umap'
-[2017.11.12-21.47.44:714][365]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto3.umap
-[2017.11.12-21.47.44:717][365]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.943
-[2017.11.12-21.47.44:717][365]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.943
-[2017.11.12-21.57.45:746][293]LogSavePackage: Save=443.09ms
-[2017.11.12-21.57.45:746][293]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_Auto4C4EE6BD54E13EB1DD46F8D95F107BD2B.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto4.umap'
-[2017.11.12-21.57.45:750][293]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto4.umap
-[2017.11.12-21.57.45:752][293]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.929
-[2017.11.12-21.57.45:752][293]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.929
-[2017.11.12-22.07.46:796][457]LogSavePackage: Save=445.38ms
-[2017.11.12-22.07.46:796][457]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_Auto58848731C40405ED72F68A48F21E39077.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto5.umap'
-[2017.11.12-22.07.46:799][457]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto5.umap
-[2017.11.12-22.07.46:801][457]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.945
-[2017.11.12-22.07.46:801][457]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.945
-[2017.11.12-22.17.47:862][545]LogSavePackage: Save=448.69ms
-[2017.11.12-22.17.47:862][545]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_Auto6E2CEA1964B620BC6DF5773A58B887996.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto6.umap'
-[2017.11.12-22.17.47:865][545]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto6.umap
-[2017.11.12-22.17.47:868][545]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.959
-[2017.11.12-22.17.47:868][545]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.959
-[2017.11.12-22.27.48:905][554]LogSavePackage: Save=447.05ms
-[2017.11.12-22.27.48:905][554]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_Auto77875ACF648C2F0EB19ACD2B4F87B95D1.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto7.umap'
-[2017.11.12-22.27.48:909][554]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto7.umap
-[2017.11.12-22.27.48:911][554]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.939
-[2017.11.12-22.27.48:911][554]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.939
-[2017.11.12-22.37.49:941][737]LogSavePackage: Save=444.72ms
-[2017.11.12-22.37.49:941][737]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_Auto83AA7315641ADCEBBDD580BB8C6E4B47A.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto8.umap'
-[2017.11.12-22.37.49:944][737]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto8.umap
-[2017.11.12-22.37.49:946][737]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.941
-[2017.11.12-22.37.49:946][737]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.941
-[2017.11.12-22.47.50:962][896]LogSavePackage: Save=443.07ms
-[2017.11.12-22.47.50:962][896]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_Auto9D622A745429E73140104129F6CF0C6CA.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto9.umap'
-[2017.11.12-22.47.50:963][896]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto9.umap
-[2017.11.12-22.47.50:966][896]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.927
-[2017.11.12-22.47.50:966][896]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.927
-[2017.11.12-22.57.52:000][ 69]LogSavePackage: Save=440.41ms
-[2017.11.12-22.57.52:000][ 69]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_Auto029ECDE6045D25E51F04AB482829655C5.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto0.umap'
-[2017.11.12-22.57.52:003][ 69]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto0.umap
-[2017.11.12-22.57.52:005][ 69]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.934
-[2017.11.12-22.57.52:005][ 69]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.934
-[2017.11.12-23.07.53:037][302]LogSavePackage: Save=446.13ms
-[2017.11.12-23.07.53:037][302]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_Auto10A026F7A41B07FE7C97ACBAD92EFD81B.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap'
-[2017.11.12-23.07.53:040][302]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap
-[2017.11.12-23.07.53:042][302]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.937
-[2017.11.12-23.07.53:042][302]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.937
-[2017.11.12-23.17.54:061][271]LogSavePackage: Save=441.63ms
-[2017.11.12-23.17.54:061][271]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_Auto2885B47B343FDE1D218835CB500D89736.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto2.umap'
-[2017.11.12-23.17.54:064][271]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto2.umap
-[2017.11.12-23.17.54:066][271]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.929
-[2017.11.12-23.17.54:066][271]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.929
-[2017.11.12-23.27.55:097][ 95]LogSavePackage: Save=444.68ms
-[2017.11.12-23.27.55:097][ 95]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_Auto3F1BEC4294B813353A0B172B0612036C0.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto3.umap'
-[2017.11.12-23.27.55:100][ 95]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto3.umap
-[2017.11.12-23.27.55:102][ 95]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.932
-[2017.11.12-23.27.55:102][ 95]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.932
-[2017.11.12-23.37.56:140][977]LogSavePackage: Save=440.67ms
-[2017.11.12-23.37.56:140][977]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_Auto4BEB97300426056A1A43EE6A674B291F9.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto4.umap'
-[2017.11.12-23.37.56:143][977]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto4.umap
-[2017.11.12-23.37.56:145][977]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.925
-[2017.11.12-23.37.56:145][977]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.925
-[2017.11.12-23.47.57:163][820]LogSavePackage: Save=444.71ms
-[2017.11.12-23.47.57:163][820]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_Auto571BD718B4956AEBAF21E11AFEC333AA8.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto5.umap'
-[2017.11.12-23.47.57:166][820]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto5.umap
-[2017.11.12-23.47.57:169][820]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.932
-[2017.11.12-23.47.57:169][820]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.932
-[2017.11.12-23.57.58:200][628]LogSavePackage: Save=445.24ms
-[2017.11.12-23.57.58:200][628]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_Auto6D235C408477000E368114EA81A0041E0.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto6.umap'
-[2017.11.12-23.57.58:203][628]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto6.umap
-[2017.11.12-23.57.58:205][628]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.930
-[2017.11.12-23.57.58:206][628]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.930
-[2017.11.13-00.07.59:226][635]LogSavePackage: Save=446.94ms
-[2017.11.13-00.07.59:226][635]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_Auto728A948CC4EC8649572DD35AB611F4329.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto7.umap'
-[2017.11.13-00.07.59:229][635]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto7.umap
-[2017.11.13-00.07.59:232][635]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.929
-[2017.11.13-00.07.59:232][635]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.929
-[2017.11.13-00.18.00:238][562]LogSavePackage: Save=444.84ms
-[2017.11.13-00.18.00:238][562]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_Auto8790CBCBB48A980BCFAAF0283DC0D0FA7.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto8.umap'
-[2017.11.13-00.18.00:241][562]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto8.umap
-[2017.11.13-00.18.00:243][562]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.924
-[2017.11.13-00.18.00:243][562]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.924
-[2017.11.13-00.28.01:307][444]LogSavePackage: Save=449.89ms
-[2017.11.13-00.28.01:307][444]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_Auto94BB01A8F4E7BC485BE0E6EB3797C2576.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto9.umap'
-[2017.11.13-00.28.01:310][444]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto9.umap
-[2017.11.13-00.28.01:312][444]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.927
-[2017.11.13-00.28.01:312][444]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.927
-[2017.11.13-00.38.02:331][358]LogSavePackage: Save=439.97ms
-[2017.11.13-00.38.02:331][358]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_Auto069F5025D485FE20241CED6833FE367D8.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto0.umap'
-[2017.11.13-00.38.02:334][358]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto0.umap
-[2017.11.13-00.38.02:337][358]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.919
-[2017.11.13-00.38.02:337][358]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.919
-[2017.11.13-00.48.03:356][191]LogSavePackage: Save=444.83ms
-[2017.11.13-00.48.03:356][191]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_Auto1655ACA02471CBF9D1F07ED99C3AE40F9.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap'
-[2017.11.13-00.48.03:359][191]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap
-[2017.11.13-00.48.03:361][191]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.927
-[2017.11.13-00.48.03:361][191]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.927
-[2017.11.13-00.58.04:670][ 96]LogSavePackage: Save=454.77ms
-[2017.11.13-00.58.04:670][ 96]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_Auto235C8B1DF4F2CDD4019483498B02BAC11.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto2.umap'
-[2017.11.13-00.58.04:673][ 96]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto2.umap
-[2017.11.13-00.58.04:676][ 96]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.941
-[2017.11.13-00.58.04:676][ 96]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.941
-[2017.11.13-01.08.05:704][157]LogSavePackage: Save=443.20ms
-[2017.11.13-01.08.05:704][157]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_Auto338308EC048B071D19500E7AC0B255395.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto3.umap'
-[2017.11.13-01.08.05:707][157]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto3.umap
-[2017.11.13-01.08.05:709][157]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.925
-[2017.11.13-01.08.05:709][157]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.925
-[2017.11.13-01.18.06:719][109]LogSavePackage: Save=444.73ms
-[2017.11.13-01.18.06:719][109]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_Auto49D676F75412964278CC2D1AF904A808C.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto4.umap'
-[2017.11.13-01.18.06:722][109]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto4.umap
-[2017.11.13-01.18.06:724][109]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.924
-[2017.11.13-01.18.06:724][109]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.924
-[2017.11.13-01.28.07:747][146]LogSavePackage: Save=450.49ms
-[2017.11.13-01.28.07:747][146]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_Auto555C500FD45C2465A39E4F585CB52E86F.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto5.umap'
-[2017.11.13-01.28.07:750][146]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto5.umap
-[2017.11.13-01.28.07:752][146]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.936
-[2017.11.13-01.28.07:752][146]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.936
-[2017.11.13-01.38.08:764][912]LogSavePackage: Save=439.33ms
-[2017.11.13-01.38.08:764][912]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_Auto6155EC49443995A7824361A8995952C01.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto6.umap'
-[2017.11.13-01.38.08:767][912]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto6.umap
-[2017.11.13-01.38.08:770][912]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.921
-[2017.11.13-01.38.08:770][912]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.921
-[2017.11.13-01.48.09:784][702]LogSavePackage: Save=448.90ms
-[2017.11.13-01.48.09:785][702]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_Auto72E67215F4AAD778B6B499B8F6D741639.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto7.umap'
-[2017.11.13-01.48.09:787][702]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto7.umap
-[2017.11.13-01.48.09:790][702]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.925
-[2017.11.13-01.48.09:790][702]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.925
-[2017.11.13-01.58.10:798][655]LogSavePackage: Save=442.50ms
-[2017.11.13-01.58.10:798][655]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_Auto8EC5E3EC84C90E79DC05B9784E64D2C2F.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto8.umap'
-[2017.11.13-01.58.10:801][655]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto8.umap
-[2017.11.13-01.58.10:803][655]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.921
-[2017.11.13-01.58.10:803][655]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.921
-[2017.11.13-02.08.11:816][545]LogSavePackage: Save=444.57ms
-[2017.11.13-02.08.11:816][545]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMap_Auto9973A49224783B63E72575C82427CD698.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto9.umap'
-[2017.11.13-02.08.11:819][545]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto9.umap
-[2017.11.13-02.08.11:822][545]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.923
-[2017.11.13-02.08.11:822][545]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.923
-[2017.11.13-02.11.35:438][887]LogSavePackage: Save=444.45ms
-[2017.11.13-02.11.35:438][887]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMapC78EE8DE423D90D584D229B10BEF6BE9.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
-[2017.11.13-02.11.35:459][887]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
-[2017.11.13-02.11.35:506][887]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 2.681
-[2017.11.13-02.11.43:719][164]LogSavePackage: Save=446.72ms
-[2017.11.13-02.11.43:719][164]LogSavePackage: Moving 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/ThirdPersonExampleMapADB739544F286E8DE4F8C9B7E676391B.tmp' to 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
-[2017.11.13-02.11.43:724][164]LogSavePackage: Display: Finished SavePackage C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
-[2017.11.13-02.11.43:764][164]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.606
-[2017.11.13-02.11.44:161][165]Cmd: QUIT_EDITOR
-[2017.11.13-02.11.44:950][165]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.11.13-02.11.44:950][165]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.11.13-02.11.44:968][165]LogExit: Preparing to exit.
-[2017.11.13-02.11.46:084][165]LogExit: Editor shut down
-[2017.11.13-02.11.46:093][165]LogExit: Transaction tracking system shut down
-[2017.11.13-02.11.46:274][165]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.11.13-02.11.46:274][165]LogDirectoryWatcher: A directory notification for 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/' was aborted.
-[2017.11.13-02.11.46:274][165]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.11.13-02.11.46:274][165]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2017.11.13-02.11.46:274][165]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2017.11.13-02.11.46:383][165]LogExit: Object subsystem successfully closed.
-[2017.11.13-02.11.46:411][165]LogD3D11RHI: Shutdown
-[2017.11.13-02.11.46:411][165]LogD3D11RHI: CleanupD3DDevice
-[2017.11.13-02.11.46:415][165]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.11.13-02.11.46:424][165]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (544)
-[2017.11.13-02.11.46:424][165]LogModuleManager: Shutting down and abandoning module SkeletonEditor (542)
-[2017.11.13-02.11.46:424][165]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (540)
-[2017.11.13-02.11.46:424][165]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (538)
-[2017.11.13-02.11.46:424][165]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
-[2017.11.13-02.11.46:424][165]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
-[2017.11.13-02.11.46:424][165]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
-[2017.11.13-02.11.46:424][165]LogModuleManager: Shutting down and abandoning module SceneOutliner (530)
-[2017.11.13-02.11.46:424][165]LogModuleManager: Shutting down and abandoning module AddContentDialog (528)
-[2017.11.13-02.11.46:424][165]LogDirectoryWatcher: A directory notification for 'F:/Epic Games/UE_4.17/FeaturePacks/' was aborted.
-[2017.11.13-02.11.46:425][165]LogModuleManager: Shutting down and abandoning module WidgetCarousel (527)
-[2017.11.13-02.11.46:425][165]LogModuleManager: Shutting down and abandoning module EditorWidgets (524)
-[2017.11.13-02.11.46:425][165]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
-[2017.11.13-02.11.46:425][165]LogDirectoryWatcher: A directory notification for 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Collections/' was aborted.
-[2017.11.13-02.11.46:425][165]LogDirectoryWatcher: A directory notification for 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Content/Developers/Gavin/Collections/' was aborted.
-[2017.11.13-02.11.46:425][165]LogDirectoryWatcher: A directory notification for 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Collections/' was aborted.
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module StatsViewer (520)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module FoliageEdit (518)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module LandscapeEditor (516)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module MeshPaintMode (514)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (512)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module ActorPickerMode (510)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module GeometryMode (508)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module TextureAlignMode (506)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module BspMode (504)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (502)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module HardwareSurvey (500)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (494)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (492)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module PlacementMode (491)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (488)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (486)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (484)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (482)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (480)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module Media (479)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (476)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module CharacterAI (474)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module AudioCapture (472)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module SequenceRecorder (471)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module SmartSnapping (468)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module SessionServices (466)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module ViewportSnapping (464)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module ViewportInteraction (462)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module ClothPainter (460)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module LogVisualizer (458)
-[2017.11.13-02.11.46:426][165]LogModuleManager: Shutting down and abandoning module IntroTutorials (456)
-[2017.11.13-02.11.46:427][165]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (455)
-[2017.11.13-02.11.46:427][165]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (452)
-[2017.11.13-02.11.46:427][165]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (450)
-[2017.11.13-02.11.46:427][165]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (448)
-[2017.11.13-02.11.46:427][165]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (447)
-[2017.11.13-02.11.47:370][165]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (444)
-[2017.11.13-02.11.47:370][165]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (442)
-[2017.11.13-02.11.47:370][165]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (440)
-[2017.11.13-02.11.47:370][165]LogModuleManager: Shutting down and abandoning module InputBindingEditor (438)
-[2017.11.13-02.11.47:370][165]LogModuleManager: Shutting down and abandoning module MergeActors (436)
-[2017.11.13-02.11.47:370][165]LogModuleManager: Shutting down and abandoning module SizeMap (434)
-[2017.11.13-02.11.47:370][165]LogModuleManager: Shutting down and abandoning module TreeMap (432)
-[2017.11.13-02.11.47:370][165]LogModuleManager: Shutting down and abandoning module ReferenceViewer (430)
-[2017.11.13-02.11.47:370][165]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (428)
-[2017.11.13-02.11.47:370][165]LogModuleManager: Shutting down and abandoning module LocalizationService (427)
-[2017.11.13-02.11.47:371][165]LogModuleManager: Shutting down and abandoning module HardwareTargeting (424)
-[2017.11.13-02.11.47:371][165]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (422)
-[2017.11.13-02.11.47:371][165]LogModuleManager: Shutting down and abandoning module UndoHistory (420)
-[2017.11.13-02.11.47:371][165]LogModuleManager: Shutting down and abandoning module XmlParser (418)
-[2017.11.13-02.11.47:371][165]LogModuleManager: Shutting down and abandoning module Blutility (416)
-[2017.11.13-02.11.47:371][165]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (414)
-[2017.11.13-02.11.47:371][165]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (413)
-[2017.11.13-02.11.47:371][165]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (410)
-[2017.11.13-02.11.47:371][165]LogModuleManager: Shutting down and abandoning module SettingsEditor (408)
-[2017.11.13-02.11.47:371][165]LogModuleManager: Shutting down and abandoning module ProjectLauncher (406)
-[2017.11.13-02.11.47:371][165]LogModuleManager: Shutting down and abandoning module SessionFrontend (404)
-[2017.11.13-02.11.47:371][165]LogModuleManager: Shutting down and abandoning module ProfilerClient (402)
-[2017.11.13-02.11.47:371][165]LogModuleManager: Shutting down and abandoning module DeviceManager (400)
-[2017.11.13-02.11.47:371][165]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (399)
-[2017.11.13-02.11.47:424][165]LogModuleManager: Shutting down and abandoning module AutomationController (396)
-[2017.11.13-02.11.47:424][165]LogModuleManager: Shutting down and abandoning module AutomationWindow (394)
-[2017.11.13-02.11.47:424][165]LogModuleManager: Shutting down and abandoning module Layers (392)
-[2017.11.13-02.11.47:424][165]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (390)
-[2017.11.13-02.11.47:424][165]LogModuleManager: Shutting down and abandoning module DetailCustomizations (388)
-[2017.11.13-02.11.47:424][165]LogModuleManager: Shutting down and abandoning module PackagesDialog (386)
-[2017.11.13-02.11.47:424][165]LogModuleManager: Shutting down and abandoning module Persona (384)
-[2017.11.13-02.11.47:424][165]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (383)
-[2017.11.13-02.11.47:424][165]LogModuleManager: Shutting down and abandoning module AnimGraph (381)
-[2017.11.13-02.11.47:424][165]LogModuleManager: Shutting down and abandoning module Kismet (378)
-[2017.11.13-02.11.47:431][165]LogModuleManager: Shutting down and abandoning module ClassViewer (376)
-[2017.11.13-02.11.47:431][165]LogModuleManager: Shutting down and abandoning module Toolbox (374)
-[2017.11.13-02.11.47:431][165]LogModuleManager: Shutting down and abandoning module ModuleUI (372)
-[2017.11.13-02.11.47:431][165]LogModuleManager: Shutting down and abandoning module MovieSceneTools (370)
-[2017.11.13-02.11.47:431][165]LogModuleManager: Shutting down and abandoning module OutputLog (368)
-[2017.11.13-02.11.47:431][165]LogModuleManager: Shutting down and abandoning module GammaUI (366)
-[2017.11.13-02.11.47:431][165]LogModuleManager: Shutting down and abandoning module Documentation (364)
-[2017.11.13-02.11.47:431][165]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (362)
-[2017.11.13-02.11.47:431][165]LogModuleManager: Shutting down and abandoning module MovieScene (360)
-[2017.11.13-02.11.47:431][165]LogModuleManager: Shutting down and abandoning module Niagara (358)
-[2017.11.13-02.11.47:431][165]LogModuleManager: Shutting down and abandoning module NiagaraEditor (357)
-[2017.11.13-02.11.47:432][165]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (354)
-[2017.11.13-02.11.47:432][165]LogModuleManager: Shutting down and abandoning module LauncherPlatform (352)
-[2017.11.13-02.11.47:432][165]LogModuleManager: Shutting down and abandoning module AnalyticsET (350)
-[2017.11.13-02.11.47:432][165]LogModuleManager: Shutting down and abandoning module PortalServices (348)
-[2017.11.13-02.11.47:432][165]LogModuleManager: Shutting down and abandoning module PortalRpc (346)
-[2017.11.13-02.11.47:432][165]LogModuleManager: Shutting down and abandoning module MessagingRpc (344)
-[2017.11.13-02.11.47:432][165]LogModuleManager: Shutting down and abandoning module AIModule (342)
-[2017.11.13-02.11.47:432][165]LogModuleManager: Shutting down and abandoning module GameplayDebugger (341)
-[2017.11.13-02.11.47:432][165]LogModuleManager: Shutting down and abandoning module AITestSuite (339)
-[2017.11.13-02.11.47:432][165]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
-[2017.11.13-02.11.47:617][165]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
-[2017.11.13-02.11.47:617][165]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
-[2017.11.13-02.11.47:617][165]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
-[2017.11.13-02.11.47:617][165]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
-[2017.11.13-02.11.47:617][165]LogModuleManager: Shutting down and abandoning module OculusInput (326)
-[2017.11.13-02.11.47:617][165]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
-[2017.11.13-02.11.47:617][165]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
-[2017.11.13-02.11.47:617][165]LogModuleManager: Shutting down and abandoning module CableComponent (320)
-[2017.11.13-02.11.47:617][165]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
-[2017.11.13-02.11.47:617][165]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
-[2017.11.13-02.11.47:617][165]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
-[2017.11.13-02.11.47:617][165]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
-[2017.11.13-02.11.47:617][165]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
-[2017.11.13-02.11.47:617][165]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
-[2017.11.13-02.11.47:617][165]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
-[2017.11.13-02.11.47:617][165]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
-[2017.11.13-02.11.47:617][165]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
-[2017.11.13-02.11.47:617][165]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
-[2017.11.13-02.11.47:617][165]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
-[2017.11.13-02.11.47:617][165]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
-[2017.11.13-02.11.47:617][165]LogModuleManager: Shutting down and abandoning module DesktopPlatform (293)
-[2017.11.13-02.11.47:617][165]LogModuleManager: Shutting down and abandoning module UObjectPlugin (290)
-[2017.11.13-02.11.47:617][165]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (288)
-[2017.11.13-02.11.47:617][165]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (286)
-[2017.11.13-02.11.47:617][165]LogModuleManager: Shutting down and abandoning module GitSourceControl (284)
-[2017.11.13-02.11.47:617][165]LogModuleManager: Shutting down and abandoning module SourceControl (283)
-[2017.11.13-02.11.47:617][165]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (280)
-[2017.11.13-02.11.47:618][165]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (278)
-[2017.11.13-02.11.47:618][165]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (276)
-[2017.11.13-02.11.47:618][165]LogModuleManager: Shutting down and abandoning module Paper2DEditor (274)
-[2017.11.13-02.11.47:618][165]LogModuleManager: Shutting down and abandoning module MeshPaint (273)
-[2017.11.13-02.11.47:618][165]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
-[2017.11.13-02.11.47:618][165]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
-[2017.11.13-02.11.47:618][165]LogModuleManager: Shutting down and abandoning module MainFrame (268)
-[2017.11.13-02.11.47:618][165]LogModuleManager: Shutting down and abandoning module HotReload (267)
-[2017.11.13-02.11.47:618][165]LogDirectoryWatcher: A directory notification for 'C:/Users/Gavin/Documents/GitHub/Sammys-Great-Adventure/SammysGreatAdventure/Binaries/Win64' was aborted.
-[2017.11.13-02.11.47:618][165]LogModuleManager: Shutting down and abandoning module SammysGreatAdventure (262)
-[2017.11.13-02.11.47:618][165]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
-[2017.11.13-02.11.47:618][165]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
-[2017.11.13-02.11.47:618][165]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
-[2017.11.13-02.11.47:618][165]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
-[2017.11.13-02.11.47:618][165]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
-[2017.11.13-02.11.47:618][165]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
-[2017.11.13-02.11.47:619][165]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
-[2017.11.13-02.11.47:619][165]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
-[2017.11.13-02.11.47:720][165]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
-[2017.11.13-02.11.47:821][165]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
-[2017.11.13-02.11.47:821][165]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
-[2017.11.13-02.11.47:821][165]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
-[2017.11.13-02.11.47:821][165]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
-[2017.11.13-02.11.47:821][165]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
-[2017.11.13-02.11.47:821][165]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
-[2017.11.13-02.11.47:821][165]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
-[2017.11.13-02.11.47:821][165]LogModuleManager: Shutting down and abandoning module Paper2D (228)
-[2017.11.13-02.11.47:821][165]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
-[2017.11.13-02.11.47:821][165]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
-[2017.11.13-02.11.47:821][165]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
-[2017.11.13-02.11.47:821][165]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
-[2017.11.13-02.11.47:821][165]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
-[2017.11.13-02.11.47:821][165]LogModuleManager: Shutting down and abandoning module Overlay (216)
-[2017.11.13-02.11.47:821][165]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
-[2017.11.13-02.11.47:821][165]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
-[2017.11.13-02.11.47:821][165]LogModuleManager: Shutting down and abandoning module VREditor (210)
-[2017.11.13-02.11.47:821][165]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
-[2017.11.13-02.11.47:821][165]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
-[2017.11.13-02.11.47:821][165]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
-[2017.11.13-02.11.47:821][165]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
-[2017.11.13-02.11.47:821][165]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
-[2017.11.13-02.11.47:821][165]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
-[2017.11.13-02.11.47:821][165]LogModuleManager: Shutting down and abandoning module UMG (196)
-[2017.11.13-02.11.47:821][165]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
-[2017.11.13-02.11.47:821][165]LogModuleManager: Shutting down and abandoning module Sequencer (194)
-[2017.11.13-02.11.47:821][165]LogModuleManager: Shutting down and abandoning module MessageLog (191)
-[2017.11.13-02.11.47:821][165]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
-[2017.11.13-02.11.47:822][165]LogModuleManager: Shutting down and abandoning module Slate (184)
-[2017.11.13-02.11.47:822][165]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
-[2017.11.13-02.11.47:824][165]LogModuleManager: Shutting down and abandoning module MRMesh (180)
-[2017.11.13-02.11.47:824][165]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
-[2017.11.13-02.11.47:824][165]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
-[2017.11.13-02.11.47:824][165]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
-[2017.11.13-02.11.47:824][165]LogModuleManager: Shutting down and abandoning module Networking (172)
-[2017.11.13-02.11.47:825][165]LogModuleManager: Shutting down and abandoning module Core (168)
-[2017.11.13-02.11.47:825][165]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2017.11.13-02.11.47:825][165]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
-[2017.11.13-02.11.47:825][165]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
-[2017.11.13-02.11.47:825][165]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
-[2017.11.13-02.11.47:825][165]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
-[2017.11.13-02.11.47:825][165]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
-[2017.11.13-02.11.47:825][165]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
-[2017.11.13-02.11.47:825][165]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
-[2017.11.13-02.11.47:825][165]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
-[2017.11.13-02.11.47:825][165]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
-[2017.11.13-02.11.47:826][165]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2017.11.13-02.11.47:858][165]LogDerivedDataCache: Shutdown
-[2017.11.13-02.11.47:858][165]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2017.11.13-02.11.47:858][165]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2017.11.13-02.11.47:858][165]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2017.11.13-02.11.47:858][165]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2017.11.13-02.11.47:858][165]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2017.11.13-02.11.47:858][165]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2017.11.13-02.11.47:858][165]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2017.11.13-02.11.47:858][165]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2017.11.13-02.11.47:858][165]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2017.11.13-02.11.47:858][165]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2017.11.13-02.11.47:858][165]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module SteamVR (54)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.11.13-02.11.47:859][165]LogOnline: Display: Unloading online subsystem: NULL
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.11.13-02.11.47:859][165]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.11.13-02.11.47:859][165]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.11.13-02.11.47:859][165]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDB3334B5-4B46-F28D-84BF-B5993CF4CD5E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=24dc16dd459a360fbf5258b0b279e105%7C6f12fdd6c83446b988703ee4d2cc194a%7C34b3d21f-c98e-48d4-974e-bbfdb06562de&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.11.13-02.11.47:888][165]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.11.13-02.11.47:889][165]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2017.11.13-02.11.47:889][165]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2017.11.13-02.11.47:889][165]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2017.11.13-02.11.47:889][165]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2017.11.13-02.11.47:889][165]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2017.11.13-02.11.47:889][165]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2017.11.13-02.11.47:889][165]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2017.11.13-02.11.47:890][165]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2017.11.13-02.11.47:890][165]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2017.11.13-02.11.47:890][165]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2017.11.13-02.11.47:890][165]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2017.11.13-02.11.47:890][165]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2017.11.13-02.11.47:890][165]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2017.11.13-02.11.47:890][165]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2017.11.13-02.11.47:890][165]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2017.11.13-02.11.47:890][165]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.11.13-02.11.47:890][165]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.11.13-02.11.47:890][165]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.11.13-02.11.47:897][165]LogExit: Exiting.
-[2017.11.13-02.11.47:898][165]Log file closed, 11/12/17 19:11:47
+[2017.11.15-19.12.53:310][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.15-19.12.53:310][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.15-19.12.53:322][  0]LogInit: Computer: DESKTOP-G3DGAE9
+[2017.11.15-19.12.53:322][  0]LogInit: User: Bhagyashree
+[2017.11.15-19.12.53:322][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.11.15-19.12.53:322][  0]LogInit: High frequency timer resolution =2.835932 MHz
+[2017.11.15-19.12.53:322][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.15-19.12.53:322][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.15-19.12.53:322][  0]LogMemory: Process Physical Memory: 277.73 MB used, 277.73 MB peak
+[2017.11.15-19.12.53:322][  0]LogMemory: Process Virtual Memory: 275.97 MB used, 275.97 MB peak
+[2017.11.15-19.12.53:322][  0]LogMemory: Physical Memory: 3217.86 MB used,  13044.70 MB free, 16262.55 MB total
+[2017.11.15-19.12.53:322][  0]LogMemory: Virtual Memory: 666.84 MB used,  13044.70 MB free, 134217728.00 MB total
+[2017.11.15-19.12.53:755][  0]LogInit: Using OS detected language (en-US).
+[2017.11.15-19.12.53:755][  0]LogInit: Using OS detected locale (en-US).
+[2017.11.15-19.12.53:758][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.15-19.12.54:831][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.15-19.12.54:845][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2017.11.15-19.12.54:845][  0]LogD3D11RHI:       128/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.11.15-19.12.54:848][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.15-19.12.54:848][  0]LogD3D11RHI:       0/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.15-19.12.54:848][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.15-19.12.54:857][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.15-19.12.54:857][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.15-19.12.54:858][  0]LogWindows: EnumDisplayDevices:
+[2017.11.15-19.12.54:858][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2017.11.15-19.12.54:858][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2017.11.15-19.12.54:859][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2017.11.15-19.12.54:859][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.11.15-19.12.54:859][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2017.11.15-19.12.54:859][  0]LogD3D11RHI:   Driver Version: 21.20.16.4542 (internal:21.20.16.4542, unified:21.20.16.4542)
+[2017.11.15-19.12.54:859][  0]LogD3D11RHI:      Driver Date: 10-24-2016
+[2017.11.15-19.12.54:859][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.15-19.12.54:867][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.15-19.12.54:880][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2017.11.15-19.12.54:883][  0]LogShaderCompilers: Guid format shader working directory is -56 characters bigger than the processId version (../../../../../../Users/Bhagyashree/Music/GAME-DESIGN-CP/Project/Sammys-Great-Adventure/SammysGreatAdventure/Intermediate/Shaders/WorkingDirectory/2840/).
+[2017.11.15-19.12.54:884][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Bhagyashree/AppData/Local/Temp/UnrealShaderWorkingDir/F7556BB34A3847C2574BB0A5B6C42202/'.
+[2017.11.15-19.12.54:884][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.15-19.12.56:860][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.15-19.12.56:938][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.15-19.12.57:010][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.15-19.12.57:082][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.15-19.12.57:145][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.15-19.12.57:213][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.15-19.12.57:278][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.15-19.12.57:351][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.15-19.12.57:408][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.15-19.12.57:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.15-19.12.57:538][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.15-19.12.57:606][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.15-19.12.57:668][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.15-19.12.57:731][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.15-19.12.57:803][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.15-19.12.57:939][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.15-19.12.57:939][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.15-19.12.57:994][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.15-19.12.58:107][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.15-19.12.58:149][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.15-19.12.58:211][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.15-19.12.58:277][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.15-19.12.58:339][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.15-19.12.58:403][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.15-19.12.58:403][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.15-19.12.59:094][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.15-19.12.59:163][  0]LogDerivedDataCache: Loaded boot cache 0.07s 94MB C:/Users/Bhagyashree/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.15-19.12.59:163][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Bhagyashree/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.15-19.12.59:164][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Bhagyashree/Music/GAME-DESIGN-CP/Project/Sammys-Great-Adventure/SammysGreatAdventure/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.15-19.12.59:164][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.15-19.12.59:164][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Bhagyashree/Music/GAME-DESIGN-CP/Project/Sammys-Great-Adventure/SammysGreatAdventure/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.15-19.12.59:164][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.15-19.12.59:183][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.15-19.12.59:195][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bhagyashree/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.15-19.12.59:204][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.15-19.12.59:205][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.15-19.12.59:205][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.15-19.12.59:205][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.15-19.12.59:464][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
+[2017.11.15-19.12.59:626][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.15-19.12.59:782][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.15-19.13.00:175][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.15-19.13.00:228][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.15-19.13.00:228][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.15-19.13.00:228][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.15-19.13.00:228][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.15-19.13.00:228][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.15-19.13.00:609][  0]LogNetVersion: SammysGreatAdventure , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3915310096)
+[2017.11.15-19.13.00:876][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.052973 seconds
+[2017.11.15-19.13.00:882][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.11.15-19.13.00:882][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.11.15-19.13.00:882][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.15-19.13.00:968][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.15-19.13.04:054][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.15-19.13.04:106][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.15-19.13.05:179][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.15-19.13.05:717][  0]SourceControl: Source control is disabled
+[2017.11.15-19.13.05:717][  0]SourceControl: Source control is disabled
+[2017.11.15-19.13.05:780][  0]SourceControl: Source control is disabled
+[2017.11.15-19.13.05:847][  0]SourceControl: Source control is disabled
+[2017.11.15-19.13.06:635][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.15-19.13.06:959][  0]LogOcInput: OculusInput pre-init called
+[2017.11.15-19.13.07:296][  0]LogEngine: Initializing Engine...
+[2017.11.15-19.13.07:298][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.15-19.13.07:509][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.15-19.13.07:510][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.15-19.13.07:678][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.15-19.13.07:690][  0]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.15-19.13.07:706][  0]LogInit: FAudioDevice initialized.
+[2017.11.15-19.13.07:781][  0]LogDerivedDataCache: Saved boot cache 0.07s 94MB C:/Users/Bhagyashree/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.15-19.13.07:791][  0]LogInit: Texture streaming: Enabled
+[2017.11.15-19.13.07:957][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.15-19.13.08:256][  0]LogInit: Transaction tracking system initialized
+[2017.11.15-19.13.08:688][  0]BlueprintLog: New page: Editor Load
+[2017.11.15-19.13.09:972][  0]LocalizationService: Localization service is disabled
+[2017.11.15-19.13.10:665][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2017.11.15-19.13.10:665][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2017.11.15-19.13.10:665][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2017.11.15-19.13.10:897][  0]LogConsoleResponse: Display: 
+[2017.11.15-19.13.11:138][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.15-19.13.11:139][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.15-19.13.11:139][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.15-19.13.11:856][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bhagyashree/Music/GAME-DESIGN-CP/Project/Sammys-Great-Adventure/SammysGreatAdventure/Content/' took 0.02s
+[2017.11.15-19.13.12:591][  0]SourceControl: Source control is disabled
+[2017.11.15-19.13.12:595][  0]LightingResults: New page: Lighting Build
+[2017.11.15-19.13.12:648][  0]MapCheck: New page: Map Check
+[2017.11.15-19.13.12:648][  0]LightingResults: New page: Lighting Build
+[2017.11.15-19.13.13:759][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.15-19.13.13:760][  0]LogModelComponent: Warning: Material Ice requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.11.15-19.13.13:761][  0]LogModelComponent: Warning: Material Ice requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.11.15-19.13.13:761][  0]LogModelComponent: Warning: Material Ice requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.11.15-19.13.14:092][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.15-19.13.14:144][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.15-19.13.14:240][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 95.711ms to complete.
+[2017.11.15-19.13.14:240][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.649
+[2017.11.15-19.13.14:305][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.15-19.13.14:305][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.15-19.13.14:433][  0]LogCollectionManager: Loaded 0 collections in 0.001696 seconds
+[2017.11.15-19.13.14:562][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bhagyashree/Music/GAME-DESIGN-CP/Project/Sammys-Great-Adventure/SammysGreatAdventure/Saved/Collections/' took 0.01s
+[2017.11.15-19.13.14:562][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bhagyashree/Music/GAME-DESIGN-CP/Project/Sammys-Great-Adventure/SammysGreatAdventure/Content/Developers/Bhagyashree/Collections/' took 0.01s
+[2017.11.15-19.13.14:562][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bhagyashree/Music/GAME-DESIGN-CP/Project/Sammys-Great-Adventure/SammysGreatAdventure/Content/Collections/' took 0.01s
+[2017.11.15-19.13.14:562][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.11.15-19.13.14:575][  0]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2391 classes and 502 folders.
+[2017.11.15-19.13.14:671][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0021 seconds. Added 0 classes and 0 folders.
+[2017.11.15-19.13.14:833][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0018 seconds. Added 0 classes and 0 folders.
+[2017.11.15-19.13.14:902][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0022 seconds. Added 1 classes and 2 folders.
+[2017.11.15-19.13.15:192][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
+[2017.11.15-19.13.15:192][  0]LogLoad: (Engine Initialization) Total time: 24.63 seconds
+[2017.11.15-19.13.15:192][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.15-19.13.15:193][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.15-19.13.15:243][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.15-19.13.15:245][  0]LogSlate: Took 0.000374 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.15-19.13.15:248][  0]LogSlate: Took 0.000274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.15-19.13.15:256][  0]LogSlate: Took 0.001170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.15-19.13.15:401][  0]LogSlate: Took 0.001736 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.15-19.13.15:439][  1]LogRenderer: Reallocating scene render targets to support 624x276 Format 10 NumSamples 1 (Frame:1).
+[2017.11.15-19.13.15:439][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Bhagyashree/Music/GAME-DESIGN-CP/Project/Sammys-Great-Adventure/SammysGreatAdventure/Content/' took 0.22s
+[2017.11.15-19.13.15:461][  1]LogAssetRegistry: Asset discovery search completed in 16.0192 seconds
+[2017.11.15-19.13.15:463][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.11.15-19.13.15:463][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
+[2017.11.15-19.13.22:879][ 50]LogRenderer: Reallocating scene render targets to support 628x284 Format 10 NumSamples 1 (Frame:51).
+[2017.11.15-19.13.30:060][171]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.15-19.13.30:115][171]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.15-19.13.30:115][171]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.15-19.13.30:117][171]PIE: New page: PIE session: ThirdPersonExampleMap (Nov 15, 2017, 5:13:30 AM)
+[2017.11.15-19.13.30:117][171]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.15-19.13.30:162][171]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045282s)
+[2017.11.15-19.13.30:163][171]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.15-19.13.30:164][171]LogPlayLevel: PIE: World Init took: (0.001634s)
+[2017.11.15-19.13.30:164][171]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.047469s)
+[2017.11.15-19.13.30:194][171]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.15-19.13.30:206][171]LogInit: FAudioDevice initialized.
+[2017.11.15-19.13.30:250][171]LogLoad: Game class is 'SammysGreatAdventureGameMode'
+[2017.11.15-19.13.30:251][171]LogModelComponent: Warning: Material Ice requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.11.15-19.13.30:251][171]LogModelComponent: Warning: Material Ice requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.11.15-19.13.30:251][171]LogModelComponent: Warning: Material Ice requires adjacency information because of Crack Free Displacement or PN Triangle Tesselation, which is not supported with model components. Falling back to DefaultMaterial.
+[2017.11.15-19.13.30:260][171]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.15-12.13.30
+[2017.11.15-19.13.30:264][171]LogWorld: Bringing up level for play took: 0.013399
+[2017.11.15-19.13.30:332][171]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0021 seconds. Added 11 classes and 0 folders.
+[2017.11.15-19.13.30:337][171]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.198
+[2017.11.15-19.13.30:337][171]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.15-19.13.32:620][192]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.11.15-19.13.33:264][200]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.11.15-19.13.34:154][210]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.11.15-19.13.35:046][219]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.11.15-19.13.35:440][223]LogBlueprintUserMessages: [BP_Sammy_C_0] 1
+[2017.11.15-19.13.35:995][229]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.11.15-19.13.38:614][257]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.11.15-19.13.38:978][261]LogBlueprintUserMessages: [BP_Sammy_C_0] 2
+[2017.11.15-19.13.39:629][269]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.11.15-19.13.40:437][279]LogBlueprintUserMessages: [BP_Sammy_C_0] 3
+[2017.11.15-19.13.40:527][280]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/Sammy/Animations/Sapphire_Run_1.Sapphire_Run_1'
+[2017.11.15-19.13.44:481][332]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.15-19.13.44:606][332]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.15-19.13.54:117][389]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.15-19.13.54:728][389]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0022 seconds. Added 113 classes and 0 folders.
+[2017.11.15-19.13.55:402][389]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.15-19.13.55:523][389]LogSlate: Took 0.001591 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.15-19.13.55:657][390]LogSlate: Took 0.001510 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.15-19.13.57:536][405]LogRenderer: Reallocating scene render targets to support 640x456 Format 10 NumSamples 1 (Frame:1).
+[2017.11.15-19.14.12:896][489]LogSlate: Took 0.000285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
