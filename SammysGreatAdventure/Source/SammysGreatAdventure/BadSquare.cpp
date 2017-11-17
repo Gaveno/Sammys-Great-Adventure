@@ -21,7 +21,10 @@
 ABadSquare::ABadSquare()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	SetActorTickEnabled(true);
 	PrimaryActorTick.bCanEverTick = true;
+	PrimaryActorTick.SetTickFunctionEnable(true);
+	PrimaryActorTick.bStartWithTickEnabled = true;
 
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
@@ -34,6 +37,9 @@ ABadSquare::ABadSquare()
 	turn = 10.0f;
 	maxSpeed = 100.0f;
 	speed = 0.0f;
+
+	Dying = false;
+	DeathTimer = 8.0f;
 }
 
 // Called when the game starts or when spawned
@@ -93,6 +99,9 @@ void ABadSquare::Tick(float DeltaTime)
 	else {
 		SetNextState();
 	}
+
+	if (Dying)
+		DeathTimer -= 10 * DeltaTime;
 }
 
 

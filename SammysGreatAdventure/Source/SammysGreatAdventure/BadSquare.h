@@ -59,5 +59,13 @@ public:
 
 	/** Move the Bad Square forward or backward. */
 	void MoveForward(float Value, float Turn);
+
+	/** Time until death. less than 0 = destory. */
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "BadSquare")
+	float DeathTimer;
+
+	/** Is dying or not. */
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "BadSquare")
+	bool Dying;
 	
 };
