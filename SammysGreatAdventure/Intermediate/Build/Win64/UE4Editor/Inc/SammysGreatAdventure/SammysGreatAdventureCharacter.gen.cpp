@@ -42,6 +42,10 @@ void EmptyLinkFunctionForGeneratedCodeSammysGreatAdventureCharacter() {}
 				OuterClass->ClassFlags |= (EClassFlags)0x20800080u;
 
 
+				CPP_BOOL_PROPERTY_BITMASK_STRUCT(Sprinting, ASammysGreatAdventureCharacter);
+				UProperty* NewProp_Sprinting = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Sprinting"), RF_Public|RF_Transient|RF_MarkAsNative) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(Sprinting, ASammysGreatAdventureCharacter), 0x0010000000020015, CPP_BOOL_PROPERTY_BITMASK(Sprinting, ASammysGreatAdventureCharacter), sizeof(bool), true);
+				CPP_BOOL_PROPERTY_BITMASK_STRUCT(Attacking, ASammysGreatAdventureCharacter);
+				UProperty* NewProp_Attacking = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Attacking"), RF_Public|RF_Transient|RF_MarkAsNative) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(Attacking, ASammysGreatAdventureCharacter), 0x0010000000020015, CPP_BOOL_PROPERTY_BITMASK(Attacking, ASammysGreatAdventureCharacter), sizeof(bool), true);
 				UProperty* NewProp_BaseLookUpRate = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BaseLookUpRate"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(BaseLookUpRate, ASammysGreatAdventureCharacter), 0x0010000000020015);
 				UProperty* NewProp_BaseTurnRate = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BaseTurnRate"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(BaseTurnRate, ASammysGreatAdventureCharacter), 0x0010000000020015);
 				UProperty* NewProp_FollowCamera = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("FollowCamera"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(FollowCamera, ASammysGreatAdventureCharacter), 0x00400000000a001d, Z_Construct_UClass_UCameraComponent_NoRegister());
@@ -55,6 +59,12 @@ void EmptyLinkFunctionForGeneratedCodeSammysGreatAdventureCharacter() {}
 				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Navigation"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("SammysGreatAdventureCharacter.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("SammysGreatAdventureCharacter.h"));
+				MetaData->SetValue(NewProp_Sprinting, TEXT("Category"), TEXT("Sammy"));
+				MetaData->SetValue(NewProp_Sprinting, TEXT("ModuleRelativePath"), TEXT("SammysGreatAdventureCharacter.h"));
+				MetaData->SetValue(NewProp_Sprinting, TEXT("ToolTip"), TEXT("Boolean for whether or not the player is sprinting."));
+				MetaData->SetValue(NewProp_Attacking, TEXT("Category"), TEXT("Sammy"));
+				MetaData->SetValue(NewProp_Attacking, TEXT("ModuleRelativePath"), TEXT("SammysGreatAdventureCharacter.h"));
+				MetaData->SetValue(NewProp_Attacking, TEXT("ToolTip"), TEXT("Boolean for whether or not the player is attacking."));
 				MetaData->SetValue(NewProp_BaseLookUpRate, TEXT("Category"), TEXT("Camera"));
 				MetaData->SetValue(NewProp_BaseLookUpRate, TEXT("ModuleRelativePath"), TEXT("SammysGreatAdventureCharacter.h"));
 				MetaData->SetValue(NewProp_BaseLookUpRate, TEXT("ToolTip"), TEXT("Base look up/down rate, in deg/sec. Other scaling may affect final rate."));
@@ -77,7 +87,7 @@ void EmptyLinkFunctionForGeneratedCodeSammysGreatAdventureCharacter() {}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASammysGreatAdventureCharacter, 239890853);
+	IMPLEMENT_CLASS(ASammysGreatAdventureCharacter, 108294170);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ASammysGreatAdventureCharacter(Z_Construct_UClass_ASammysGreatAdventureCharacter, &ASammysGreatAdventureCharacter::StaticClass, TEXT("/Script/SammysGreatAdventure"), TEXT("ASammysGreatAdventureCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ASammysGreatAdventureCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

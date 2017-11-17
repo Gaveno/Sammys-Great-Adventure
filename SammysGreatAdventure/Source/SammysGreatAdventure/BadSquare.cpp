@@ -72,19 +72,19 @@ void ABadSquare::SetNextState()
 void ABadSquare::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	stateTimer -= 10.0f * DeltaTime;
 	if (stateTimer > 0)
 	{
 		switch (enemyState)
 		{
 		case 0:
-			StateWait();
+			StateWait(DeltaTime);
 			break;
 		case 1:
-			StateWalkForward();
+			StateWalkForward(DeltaTime);
 			break;
 		case 2:
-			StateWalkForwardTurning();
+			StateWalkForwardTurning(DeltaTime);
 			break;
 		default:
 			break;
@@ -96,33 +96,30 @@ void ABadSquare::Tick(float DeltaTime)
 }
 
 
-void ABadSquare::StateWait()
+void ABadSquare::StateWait(float DeltaTime)
 {
 	if (speed > 0)
 	{
 		MoveForward(speed, 0);
-		speed -= 0.01;
+		speed -= DeltaTime;
 	}
-	stateTimer--;
 }
 
-void ABadSquare::StateWalkForward()
+void ABadSquare::StateWalkForward(float DeltaTime)
 {
 	if (speed < WALK_SPEED)
 	{
-		speed += 0.01;
+		speed += DeltaTime;
 	}
-	stateTimer--;
 	MoveForward(speed, 0);
 }
 
-void ABadSquare::StateWalkForwardTurning()
+void ABadSquare::StateWalkForwardTurning(float DeltaTime)
 {
 	if (speed < WALKT_SPEED)
 	{
 		speed += 0.01;
 	}
-	stateTimer--;
 	MoveForward(speed, turn);
 }
 

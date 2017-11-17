@@ -29,6 +29,17 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
 
+	/** Boolean for whether or not the player is attacking. */
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Sammy")
+	bool Attacking;
+
+	/** Boolean for whether or not the player is sprinting. */
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Sammy")
+	bool Sprinting;
+
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
 protected:
 
 	/** Resets HMD orientation in VR. */
@@ -57,6 +68,20 @@ protected:
 
 	/** Handler for when a touch input stops. */
 	void TouchStopped(ETouchIndex::Type FingerIndex, FVector Location);
+
+	/**
+	 * Player has pressed attack button.
+	 */
+	void Attack();
+
+	/** Timer to keep checking for attacking conditions. */
+	float AttackTimer;
+
+	/** Sprint on. Start sprinting. */
+	void SprintOn();
+
+	/** Sprint off. Stop sprinting. */
+	void SprintOff();
 
 protected:
 	// APawn interface

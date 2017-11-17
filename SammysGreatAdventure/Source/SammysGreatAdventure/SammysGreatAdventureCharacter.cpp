@@ -17,9 +17,16 @@ ASammysGreatAdventureCharacter::ASammysGreatAdventureCharacter()
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
 
-	// set our turn rates for input
+	// Attacking variables
+	Attacking = false;
+	AttackTimer = 0.0f;
+
+	// Set our turn rates for input
 	BaseTurnRate = 45.f;
 	BaseLookUpRate = 45.f;
+
+	// Not sprinting by default.
+	Sprinting = false;
 
 	// Don't rotate when the controller rotates. Let that just affect the camera.
 	bUseControllerRotationPitch = false;
@@ -56,6 +63,9 @@ void ASammysGreatAdventureCharacter::SetupPlayerInputComponent(class UInputCompo
 	check(PlayerInputComponent);
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+	PlayerInputComponent->BindAction("Punch", IE_Pressed, this, &ASammysGreatAdventureCharacter::Attack);
+	PlayerInputComponent->BindAction("Run", IE_Pressed, this, &ASammysGreatAdventureCharacter::SprintOn);
+	PlayerInputComponent->BindAction("Run", IE_Released, this, &ASammysGreatAdventureCharacter::SprintOff);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &ASammysGreatAdventureCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &ASammysGreatAdventureCharacter::MoveRight);
@@ -76,6 +86,32 @@ void ASammysGreatAdventureCharacter::SetupPlayerInputComponent(class UInputCompo
 	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &ASammysGreatAdventureCharacter::OnResetVR);
 }
 
+void ASammysGreatAdventureCharacter::Attack()
+{
+	if (!Attacking)
+	{
+		Attacking = true;
+		AttackTimer = 2.3f;
+	}
+}
+
+void ASammysGreatAdventureCharacter::Tick(float DeltaTime)
+{
+	if (AttackTimer > 0)
+		AttackTimer -= 10 * DeltaTime;
+	else
+		Attacking = false;
+}
+
+void ASammysGreatAdventureCharacter::SprintOn()
+{
+	Sprinting = true;
+}
+
+void ASammysGreatAdventureCharacter::SprintOff()
+{
+	Sprinting = false;
+}
 
 void ASammysGreatAdventureCharacter::OnResetVR()
 {
@@ -95,7 +131,8 @@ void ASammysGreatAdventureCharacter::TouchStopped(ETouchIndex::Type FingerIndex,
 void ASammysGreatAdventureCharacter::TurnAtRate(float Rate)
 {
 	// calculate delta for this frame from the rate information
-	AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
+	if (!Attacking)
+		AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
 }
 
 void ASammysGreatAdventureCharacter::LookUpAtRate(float Rate)
@@ -106,7 +143,7 @@ void ASammysGreatAdventureCharacter::LookUpAtRate(float Rate)
 
 void ASammysGreatAdventureCharacter::MoveForward(float Value)
 {
-	if ((Controller != NULL) && (Value != 0.0f))
+	if ((Controller != NULL) && (Value != 0.0f) && (!Attacking))
 	{
 		// find out which way is forward
 		const FRotator Rotation = Controller->GetControlRotation();
@@ -114,13 +151,13 @@ void ASammysGreatAdventureCharacter::MoveForward(float Value)
 
 		// get forward vector
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
-		AddMovementInput(Direction, Value);
+		AddMovementInput(Direction, Value * (Sprinting ? 1.0f : 0.75f));
 	}
 }
 
 void ASammysGreatAdventureCharacter::MoveRight(float Value)
 {
-	if ( (Controller != NULL) && (Value != 0.0f) )
+	if ( (Controller != NULL) && (Value != 0.0f) && (!Attacking))
 	{
 		// find out which way is right
 		const FRotator Rotation = Controller->GetControlRotation();
@@ -129,6 +166,6 @@ void ASammysGreatAdventureCharacter::MoveRight(float Value)
 		// get right vector 
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
 		// add movement in that direction
-		AddMovementInput(Direction, Value);
+		AddMovementInput(Direction, Value * (Sprinting ? 1.0f : 0.75f));
 	}
 }

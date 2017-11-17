@@ -34,13 +34,13 @@ protected:
 public:	
 
 	// Wait for stateTimer to run out without moving.
-	void StateWait();
+	void StateWait(float DeltaTime);
 
 	// Walk forward, picking up speed.
-	void StateWalkForward();
+	void StateWalkForward(float DeltaTime);
 
 	// Walk and turn.
-	void StateWalkForwardTurning();
+	void StateWalkForwardTurning(float DeltaTime);
 
 	// Randomly set the next state.
 	void SetNextState();
