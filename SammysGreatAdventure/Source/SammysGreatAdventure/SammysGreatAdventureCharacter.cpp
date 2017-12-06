@@ -16,10 +16,6 @@ ASammysGreatAdventureCharacter::ASammysGreatAdventureCharacter()
 {
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
-	SetActorTickEnabled(true);
-	PrimaryActorTick.bCanEverTick = true;
-	PrimaryActorTick.SetTickFunctionEnable(true);
-	PrimaryActorTick.bStartWithTickEnabled = true;
 
 	// Attacking variables
 	Attacking = false;
@@ -101,13 +97,8 @@ void ASammysGreatAdventureCharacter::Attack()
 
 void ASammysGreatAdventureCharacter::Tick(float DeltaTime)
 {
-	Super::Tick(DeltaTime);
-
 	if (AttackTimer > 0)
-	{
 		AttackTimer -= 10 * DeltaTime;
-		Attacking = true;
-	}
 	else
 		Attacking = false;
 }
