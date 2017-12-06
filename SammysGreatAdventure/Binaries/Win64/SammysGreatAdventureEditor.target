@@ -18,6 +18,7 @@
 	[
 		{
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"Path" : "$(EngineDir)/Binaries/Win64/UE4Editor.exe",
 			"Type" : "Executable",
 			"IsPrecompiled" : true
@@ -6496,6 +6497,8 @@
 			"Path" : "$(EngineDir)/Content/Slate/Icons/notificationlist_fail.png",
 			"Type" : "UFS"
 =======
+=======
+>>>>>>> parent of f43570c... Bad Square can be punched
 			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-SammysGreatAdventure-4667.dll",
 			"Type" : "DynamicLibrary"
 		},
