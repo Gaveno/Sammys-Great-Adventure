@@ -17,9 +17,6 @@
 	"BuildProducts" :
 	[
 		{
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 			"Path" : "$(EngineDir)/Binaries/Win64/UE4Editor.exe",
 			"Type" : "Executable",
 			"IsPrecompiled" : true
@@ -6497,22 +6494,6 @@
 		{
 			"Path" : "$(EngineDir)/Content/Slate/Icons/notificationlist_fail.png",
 			"Type" : "UFS"
-=======
-=======
->>>>>>> parent of f43570c... Bad Square can be punched
-=======
->>>>>>> parent of f43570c... Bad Square can be punched
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-SammysGreatAdventure-4667.dll",
-			"Type" : "DynamicLibrary"
-		},
-		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-SammysGreatAdventure-4667.pdb",
-			"Type" : "SymbolFile"
-		},
-		{
-			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-SammysGreatAdventure-4667.lib",
-			"Type" : "ImportLibrary"
->>>>>>> parent of f43570c... Bad Square can be punched
 		},
 		{
 			"Path" : "$(EngineDir)/Content/Slate/Icons/notificationlist_success.png",

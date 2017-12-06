@@ -40,6 +40,9 @@ void EmptyLinkFunctionForGeneratedCodeBadSquare() {}
 				OuterClass->ClassFlags |= (EClassFlags)0x20900080u;
 
 
+				CPP_BOOL_PROPERTY_BITMASK_STRUCT(Dying, ABadSquare);
+				UProperty* NewProp_Dying = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Dying"), RF_Public|RF_Transient|RF_MarkAsNative) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(Dying, ABadSquare), 0x0010000000020005, CPP_BOOL_PROPERTY_BITMASK(Dying, ABadSquare), sizeof(bool), true);
+				UProperty* NewProp_DeathTimer = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("DeathTimer"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(DeathTimer, ABadSquare), 0x0010000000020015);
 				UProperty* NewProp_BaseTurnRate = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BaseTurnRate"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(BaseTurnRate, ABadSquare), 0x0010000000020005);
 				UProperty* NewProp_enemyState = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("enemyState"), RF_Public|RF_Transient|RF_MarkAsNative) UUnsizedIntProperty(CPP_PROPERTY_BASE(enemyState, ABadSquare), 0x0010000000020005);
 				OuterClass->ClassConfigName = FName(TEXT("Game"));
@@ -51,6 +54,12 @@ void EmptyLinkFunctionForGeneratedCodeBadSquare() {}
 				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Navigation"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("BadSquare.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("BadSquare.h"));
+				MetaData->SetValue(NewProp_Dying, TEXT("Category"), TEXT("BadSquare"));
+				MetaData->SetValue(NewProp_Dying, TEXT("ModuleRelativePath"), TEXT("BadSquare.h"));
+				MetaData->SetValue(NewProp_Dying, TEXT("ToolTip"), TEXT("Is dying or not."));
+				MetaData->SetValue(NewProp_DeathTimer, TEXT("Category"), TEXT("BadSquare"));
+				MetaData->SetValue(NewProp_DeathTimer, TEXT("ModuleRelativePath"), TEXT("BadSquare.h"));
+				MetaData->SetValue(NewProp_DeathTimer, TEXT("ToolTip"), TEXT("Time until death. less than 0 = destory."));
 				MetaData->SetValue(NewProp_BaseTurnRate, TEXT("Category"), TEXT("BadSquare"));
 				MetaData->SetValue(NewProp_BaseTurnRate, TEXT("ModuleRelativePath"), TEXT("BadSquare.h"));
 				MetaData->SetValue(NewProp_BaseTurnRate, TEXT("ToolTip"), TEXT("Base turn rate, in deg/sec. Other scaling may affect final turn rate."));
@@ -63,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeBadSquare() {}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABadSquare, 2925438752);
+	IMPLEMENT_CLASS(ABadSquare, 1551882456);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABadSquare(Z_Construct_UClass_ABadSquare, &ABadSquare::StaticClass, TEXT("/Script/SammysGreatAdventure"), TEXT("ABadSquare"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABadSquare);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
