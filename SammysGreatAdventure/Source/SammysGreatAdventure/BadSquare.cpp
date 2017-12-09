@@ -178,6 +178,7 @@ void ABadSquare::MoveForward(float Value, float Turn)
 	{
 		if (GEngine)
 		{
+			AController::Possess();
 			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Cannot move."));
 		}
 	}
