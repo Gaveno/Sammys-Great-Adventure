@@ -1,3 +1,0 @@
-C:\Users\Gavin\Documents\GitHub\Sammys-Great-Adventure\SammysGreatAdventure\Source\SammysGreatAdventure\SammysGreatAdventure.Build.cs
-C:\Users\Gavin\Documents\GitHub\Sammys-Great-Adventure\SammysGreatAdventure\Source\SammysGreatAdventure.Target.cs
-C:\Users\Gavin\Documents\GitHub\Sammys-Great-Adventure\SammysGreatAdventure\Source\SammysGreatAdventureEditor.Target.cs
