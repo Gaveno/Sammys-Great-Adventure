@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "UnrealMathUtility.h"
+#include "Runtime/AIModule/Classes/Perception/PawnSensingComponent.h"
 #include "BadSquare.generated.h"
 
 
@@ -31,6 +32,8 @@ protected:
 	// Turn direction for StateWalkForwardTurning.
 	float turn;
 
+	
+
 public:	
 
 	// Wait for stateTimer to run out without moving.
@@ -44,6 +47,13 @@ public:
 
 	// Randomly set the next state.
 	void SetNextState();
+
+	// Called when the bad square sees the player.
+	void OnSeePlayer(APawn* Pawn);
+
+	// Who I'm chasing.
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "BadSquare")
+	APawn *Chasing;
 
 
 	// Enemy state

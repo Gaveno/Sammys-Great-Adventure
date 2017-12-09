@@ -3,19 +3,26 @@
 #include "BadSquare.h"
 #include "Components/CapsuleComponent.h"
 #include "Math/UnrealMathUtility.h"
+#include "Perception/PawnSensingComponent.h"
+#include "Runtime/CoreUObject/Public/UObject/Object.h"
+#include "Runtime/CoreUObject/Public/UObject/UObjectGlobals.h"
+#include "Engine.h"
 #include "GameFramework/CharacterMovementComponent.h"
 
 #define TURN_RATE	4.0f
-#define TIME_WALK	200
-#define TIME_WALKT	100
-#define TIME_WAIT	300
+#define TIME_WALK	150
+#define TIME_WALKT	75
+#define TIME_WAIT	225
+#define TIME_ATTACK 200
 #define TIME_VAR	100
 #define WALK_SPEED	0.5f
 #define WALKT_SPEED 0.3f
+#define RUN_SPEED	1.0f
 
-#define STATE_WAIT	0
-#define STATE_WALK	1
-#define STATE_WALKT	2
+#define STATE_WAIT	 0
+#define STATE_WALK	 1
+#define STATE_WALKT	 2
+#define STATE_ATTACK 3
 
 // Sets default values
 ABadSquare::ABadSquare()
@@ -40,18 +47,22 @@ ABadSquare::ABadSquare()
 
 	Dying = false;
 	DeathTimer = 8.0f;
+
+	Chasing = nullptr;
 }
 
 // Called when the game starts or when spawned
 void ABadSquare::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
+
 
 void ABadSquare::SetNextState()
 {
 	int nextState = FMath::RandRange((int)STATE_WAIT, (int)STATE_WALKT);
+	if (Chasing)
+		nextState = STATE_ATTACK;
 	switch (nextState)
 	{
 	case STATE_WAIT:
@@ -67,6 +78,10 @@ void ABadSquare::SetNextState()
 		enemyState = STATE_WALKT;
 		stateTimer = TIME_WALKT;
 		break;
+	case STATE_ATTACK:
+		enemyState = STATE_ATTACK;
+		stateTimer = TIME_ATTACK;
+		break;
 	default:
 		enemyState = 0;
 		break;
@@ -77,6 +92,11 @@ void ABadSquare::SetNextState()
 // Called every frame
 void ABadSquare::Tick(float DeltaTime)
 {
+	if (Chasing && enemyState != STATE_ATTACK)
+	{
+		SetNextState();
+	}
+
 	Super::Tick(DeltaTime);
 	stateTimer -= 10.0f * DeltaTime;
 	if (stateTimer > 0)
@@ -93,10 +113,20 @@ void ABadSquare::Tick(float DeltaTime)
 			StateWalkForwardTurning(DeltaTime);
 			break;
 		default:
+			if (Chasing)
+			{
+				ACharacter* myCharacter = UGameplayStatics::GetPlayerCharacter(GetWorld(), 0);
+				FVector dir = myCharacter->GetActorLocation() - GetMovementComponent()->GetActorLocation();
+				dir = FVector(dir.X, dir.Y, 0);
+				FRotator rot = FRotationMatrix::MakeFromX(dir).Rotator();
+				SetActorRotation(rot);
+				MoveForward(RUN_SPEED, 0);
+			}
 			break;
 		}
 	}
 	else {
+		Chasing = nullptr;
 		SetNextState();
 	}
 
