@@ -174,4 +174,11 @@ void ABadSquare::MoveForward(float Value, float Turn)
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
 		AddMovementInput(Direction, Value);
 	}
+	if (!Controller)
+	{
+		if (GEngine)
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Cannot move."));
+		}
+	}
 }
