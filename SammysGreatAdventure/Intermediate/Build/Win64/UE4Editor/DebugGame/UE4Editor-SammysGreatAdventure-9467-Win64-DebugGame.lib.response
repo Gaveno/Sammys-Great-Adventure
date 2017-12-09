@@ -1,0 +1,24 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-SammysGreatAdventure-9467-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"F:\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.NonOptimized.h.obj"
+"C:\Users\Gavin\Documents\GitHub\Sammys-Great-Adventure\SammysGreatAdventure\Intermediate\Build\Win64\UE4Editor\DebugGame\SammysGreatAdventure\BadSquare.cpp.obj"
+"C:\Users\Gavin\Documents\GitHub\Sammys-Great-Adventure\SammysGreatAdventure\Intermediate\Build\Win64\UE4Editor\DebugGame\SammysGreatAdventure\FrostyGhost_AIController.cpp.obj"
+"C:\Users\Gavin\Documents\GitHub\Sammys-Great-Adventure\SammysGreatAdventure\Intermediate\Build\Win64\UE4Editor\DebugGame\SammysGreatAdventure\FrostyGhost_Character.cpp.obj"
+"C:\Users\Gavin\Documents\GitHub\Sammys-Great-Adventure\SammysGreatAdventure\Intermediate\Build\Win64\UE4Editor\DebugGame\SammysGreatAdventure\SammysGreatAdventure.cpp.obj"
+"C:\Users\Gavin\Documents\GitHub\Sammys-Great-Adventure\SammysGreatAdventure\Intermediate\Build\Win64\UE4Editor\DebugGame\SammysGreatAdventure\SammysGreatAdventureCharacter.cpp.obj"
+"C:\Users\Gavin\Documents\GitHub\Sammys-Great-Adventure\SammysGreatAdventure\Intermediate\Build\Win64\UE4Editor\DebugGame\SammysGreatAdventure\SammysGreatAdventureGameMode.cpp.obj"
+"C:\Users\Gavin\Documents\GitHub\Sammys-Great-Adventure\SammysGreatAdventure\Intermediate\Build\Win64\UE4Editor\DebugGame\SammysGreatAdventure\BadSquare.gen.cpp.obj"
+"C:\Users\Gavin\Documents\GitHub\Sammys-Great-Adventure\SammysGreatAdventure\Intermediate\Build\Win64\UE4Editor\DebugGame\SammysGreatAdventure\FrostyGhost_AIController.gen.cpp.obj"
+"C:\Users\Gavin\Documents\GitHub\Sammys-Great-Adventure\SammysGreatAdventure\Intermediate\Build\Win64\UE4Editor\DebugGame\SammysGreatAdventure\FrostyGhost_Character.gen.cpp.obj"
+"C:\Users\Gavin\Documents\GitHub\Sammys-Great-Adventure\SammysGreatAdventure\Intermediate\Build\Win64\UE4Editor\DebugGame\SammysGreatAdventure\SammysGreatAdventure.init.gen.cpp.obj"
+"C:\Users\Gavin\Documents\GitHub\Sammys-Great-Adventure\SammysGreatAdventure\Intermediate\Build\Win64\UE4Editor\DebugGame\SammysGreatAdventure\SammysGreatAdventureCharacter.gen.cpp.obj"
+"C:\Users\Gavin\Documents\GitHub\Sammys-Great-Adventure\SammysGreatAdventure\Intermediate\Build\Win64\UE4Editor\DebugGame\SammysGreatAdventure\SammysGreatAdventureGameMode.gen.cpp.obj"
+"F:\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\SammysGreatAdventure\PCLaunch.rc.res"
+"F:\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Users\Gavin\Documents\GitHub\Sammys-Great-Adventure\SammysGreatAdventure\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-SammysGreatAdventure-9467-Win64-DebugGame.lib"

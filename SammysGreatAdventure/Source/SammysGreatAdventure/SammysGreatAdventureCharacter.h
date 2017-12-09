@@ -37,6 +37,10 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Sammy")
 	bool Sprinting;
 
+	/** Float for how high the player jumps when dive attacking. */
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Sammy")
+	float JumpHeightOnAttack;
+
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 

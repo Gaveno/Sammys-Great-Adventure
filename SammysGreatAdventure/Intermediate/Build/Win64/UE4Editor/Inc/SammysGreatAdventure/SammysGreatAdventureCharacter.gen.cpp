@@ -42,6 +42,7 @@ void EmptyLinkFunctionForGeneratedCodeSammysGreatAdventureCharacter() {}
 				OuterClass->ClassFlags |= (EClassFlags)0x20800080u;
 
 
+				UProperty* NewProp_JumpHeightOnAttack = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("JumpHeightOnAttack"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(JumpHeightOnAttack, ASammysGreatAdventureCharacter), 0x0010000000020005);
 				CPP_BOOL_PROPERTY_BITMASK_STRUCT(Sprinting, ASammysGreatAdventureCharacter);
 				UProperty* NewProp_Sprinting = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Sprinting"), RF_Public|RF_Transient|RF_MarkAsNative) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(Sprinting, ASammysGreatAdventureCharacter), 0x0010000000020015, CPP_BOOL_PROPERTY_BITMASK(Sprinting, ASammysGreatAdventureCharacter), sizeof(bool), true);
 				CPP_BOOL_PROPERTY_BITMASK_STRUCT(Attacking, ASammysGreatAdventureCharacter);
@@ -59,6 +60,9 @@ void EmptyLinkFunctionForGeneratedCodeSammysGreatAdventureCharacter() {}
 				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Navigation"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("SammysGreatAdventureCharacter.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("SammysGreatAdventureCharacter.h"));
+				MetaData->SetValue(NewProp_JumpHeightOnAttack, TEXT("Category"), TEXT("Sammy"));
+				MetaData->SetValue(NewProp_JumpHeightOnAttack, TEXT("ModuleRelativePath"), TEXT("SammysGreatAdventureCharacter.h"));
+				MetaData->SetValue(NewProp_JumpHeightOnAttack, TEXT("ToolTip"), TEXT("Float for how high the player jumps when dive attacking."));
 				MetaData->SetValue(NewProp_Sprinting, TEXT("Category"), TEXT("Sammy"));
 				MetaData->SetValue(NewProp_Sprinting, TEXT("ModuleRelativePath"), TEXT("SammysGreatAdventureCharacter.h"));
 				MetaData->SetValue(NewProp_Sprinting, TEXT("ToolTip"), TEXT("Boolean for whether or not the player is sprinting."));
@@ -87,7 +91,7 @@ void EmptyLinkFunctionForGeneratedCodeSammysGreatAdventureCharacter() {}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASammysGreatAdventureCharacter, 108294170);
+	IMPLEMENT_CLASS(ASammysGreatAdventureCharacter, 1056632260);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ASammysGreatAdventureCharacter(Z_Construct_UClass_ASammysGreatAdventureCharacter, &ASammysGreatAdventureCharacter::StaticClass, TEXT("/Script/SammysGreatAdventure"), TEXT("ASammysGreatAdventureCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ASammysGreatAdventureCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

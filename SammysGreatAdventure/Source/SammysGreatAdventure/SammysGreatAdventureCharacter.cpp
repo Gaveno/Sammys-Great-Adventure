@@ -24,6 +24,7 @@ ASammysGreatAdventureCharacter::ASammysGreatAdventureCharacter()
 	// Attacking variables
 	Attacking = false;
 	AttackTimer = 0.0f;
+	JumpHeightOnAttack = 300.f;
 
 	// Set our turn rates for input
 	BaseTurnRate = 45.f;
@@ -99,7 +100,7 @@ void ASammysGreatAdventureCharacter::Attack()
 		if (Sprinting)
 		{
 			AttackTimer = 3.f;
-			GetCharacterMovement()->Velocity.Z = 200.f;
+			GetCharacterMovement()->Velocity.Z = JumpHeightOnAttack;
 			GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Falling);
 		}
 	}
