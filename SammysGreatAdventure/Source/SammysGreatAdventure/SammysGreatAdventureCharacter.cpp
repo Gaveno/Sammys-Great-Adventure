@@ -92,10 +92,16 @@ void ASammysGreatAdventureCharacter::SetupPlayerInputComponent(class UInputCompo
 
 void ASammysGreatAdventureCharacter::Attack()
 {
-	if (!Attacking)
+	if (!Attacking && GetCharacterMovement()->MovementMode != EMovementMode::MOVE_Falling)
 	{
 		Attacking = true;
-		AttackTimer = 2.3f;
+		AttackTimer = 2.5f;
+		if (Sprinting)
+		{
+			AttackTimer = 3.f;
+			GetCharacterMovement()->Velocity.Z = 200.f;
+			GetCharacterMovement()->SetMovementMode(EMovementMode::MOVE_Falling);
+		}
 	}
 }
 
