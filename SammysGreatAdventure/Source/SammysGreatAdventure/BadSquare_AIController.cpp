@@ -26,5 +26,5 @@ void ABadSquare_AIController::BeginPlay()
 // Bad square saw the player.
 void ABadSquare_AIController::OnSeePlayer(APawn* Pawn)
 {
-	Cast<ABadSquare>(GetControlledPawn())->Chasing = Pawn;
+	Cast<ABadSquare>(GetPawn())->Chasing = Pawn;
 }

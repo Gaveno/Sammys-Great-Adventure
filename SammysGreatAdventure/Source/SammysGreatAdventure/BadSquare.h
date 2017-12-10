@@ -55,6 +55,14 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "BadSquare")
 	APawn *Chasing;
 
+	// Found a ledge ahead?
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "BadSquare")
+	bool LedgeAhead;
+
+	// Ledge threshold.
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "BadSquare")
+	float LedgeThreshold;
+
 
 	// Enemy state
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "BadSquare")

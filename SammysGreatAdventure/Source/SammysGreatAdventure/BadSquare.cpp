@@ -15,6 +15,7 @@
 #define TIME_WAIT	225
 #define TIME_ATTACK 200
 #define TIME_VAR	100
+#define TIME_BACKUP 50
 #define WALK_SPEED	0.5f
 #define WALKT_SPEED 0.3f
 #define RUN_SPEED	1.0f
@@ -23,6 +24,7 @@
 #define STATE_WALK	 1
 #define STATE_WALKT	 2
 #define STATE_ATTACK 3
+#define STATE_LEDGE  4
 
 // Sets default values
 ABadSquare::ABadSquare()
@@ -49,6 +51,9 @@ ABadSquare::ABadSquare()
 	DeathTimer = 8.0f;
 
 	Chasing = nullptr;
+
+	LedgeAhead = false;
+	LedgeThreshold = 100.f;
 }
 
 // Called when the game starts or when spawned
@@ -97,20 +102,30 @@ void ABadSquare::Tick(float DeltaTime)
 		SetNextState();
 	}
 
+	if (LedgeAhead && enemyState != STATE_LEDGE)
+	{
+		enemyState = STATE_LEDGE;
+		stateTimer = TIME_BACKUP;
+	}
+
 	Super::Tick(DeltaTime);
 	stateTimer -= 10.0f * DeltaTime;
 	if (stateTimer > 0)
 	{
 		switch (enemyState)
 		{
-		case 0:
+		case STATE_WAIT:
 			StateWait(DeltaTime);
 			break;
-		case 1:
+		case STATE_WALK:
 			StateWalkForward(DeltaTime);
 			break;
-		case 2:
+		case STATE_WALKT:
 			StateWalkForwardTurning(DeltaTime);
+			break;
+		case STATE_LEDGE:
+			turn = TURN_RATE;
+			MoveForward(WALK_SPEED, turn);
 			break;
 		default:
 			if (Chasing)
@@ -166,6 +181,10 @@ void ABadSquare::MoveForward(float Value, float Turn)
 {
 	if ((Controller != NULL) && (Value != 0.0f))
 	{
+		if (LedgeAhead)
+		{
+			Value = -1;
+		}
 		// find out which way is forward
 		const FRotator Rotation = Controller->GetControlRotation();
 		const FRotator YawRotation(0, Rotation.Yaw + Turn, 0);
