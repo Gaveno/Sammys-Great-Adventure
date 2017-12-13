@@ -13,7 +13,7 @@
 #define TIME_WALK	150
 #define TIME_WALKT	75
 #define TIME_WAIT	225
-#define TIME_ATTACK 200
+#define TIME_ATTACK 300
 #define TIME_VAR	100
 #define TIME_BACKUP 50
 #define WALK_SPEED	0.5f
@@ -102,11 +102,14 @@ void ABadSquare::Tick(float DeltaTime)
 		SetNextState();
 	}
 
-	if (LedgeAhead && enemyState != STATE_LEDGE)
+	if (LedgeAhead && enemyState != STATE_LEDGE && Dying == false)
 	{
 		enemyState = STATE_LEDGE;
 		stateTimer = TIME_BACKUP;
 	}
+
+	if (Dying)
+		enemyState = STATE_WAIT;
 
 	Super::Tick(DeltaTime);
 	stateTimer -= 10.0f * DeltaTime;
